@@ -1,979 +1,979 @@
 [
   {
-    "input": "Hello, how are you?",
-    "output": "I am doing well, thank you for asking."
+    "input": "Hello, how are you",
+    "output": "I am doing well, thank you for asking"
   },
   {
-    "input": "What is the weather like today?",
-    "output": "The weather today is sunny with a high of 75°F."
+    "input": "What is the weather like today",
+    "output": "The weather today is sunny with a high of 75°F"
   },
   {
-    "input": "Can you help me book a flight?",
-    "output": "Sure, I can assist you with booking a flight. Please provide me with your travel details."
+    "input": "Can you help me book a flight",
+    "output": "Sure, I can assist you with booking a flight Please provide me with your travel details"
   },
   {
-    "input": "Tell me a joke.",
-    "output": "Why don't scientists trust atoms? Because they make up everything!"
+    "input": "Tell me a joke",
+    "output": "Why don't scientists trust atoms Because they make up everything"
   },
   {
-    "input": "What are the latest news headlines?",
-    "output": "The latest news headlines are..."
+    "input": "What are the latest news headlines",
+    "output": "The latest news headlines are"
   },
   {
-    "input": "Goodbye!",
-    "output": "Goodbye, have a great day!"
+    "input": "Goodbye",
+    "output": "Goodbye, have a great day"
   },
   {
-      "input": "What's the capital of France?",
-      "output": "The capital of France is Paris."
+      "input": "What's the capital of France",
+      "output": "The capital of France is Paris"
     },
     {
-      "input": "How do I reset my password?",
-      "output": "To reset your password, please follow these steps..."
+      "input": "How do I reset my password",
+      "output": "To reset your password, please follow these steps"
     },
     {
-      "input": "Can you recommend a good restaurant nearby?",
-      "output": "Sure, here are some highly rated restaurants near your location..."
+      "input": "Can you recommend a good restaurant nearby",
+      "output": "Sure, here are some highly rated restaurants near your location"
     },
     {
-      "input": "What's the current time?",
-      "output": "The current time is [current time]."
+      "input": "What's the current time",
+      "output": "The current time is [current time]"
     },
     {
-      "input": "How can I improve my coding skills?",
-      "output": "Here are some tips to improve your coding skills..."
+      "input": "How can I improve my coding skills",
+      "output": "Here are some tips to improve your coding skills"
     },
     {
-      "input": "Tell me a fun fact.",
-      "output": "Did you know that honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible!"
+      "input": "Tell me a fun fact",
+      "output": "Did you know that honey never spoils Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible"
     },
     {
-      "input": "Can you set a reminder for tomorrow?",
-      "output": "Of course, what time would you like me to set the reminder for?"
+      "input": "Can you set a reminder for tomorrow",
+      "output": "Of course, what time would you like me to set the reminder for"
     },
     {
-      "input": "What's the meaning of life?",
-      "output": "The meaning of life is a philosophical question with various interpretations and perspectives."
+      "input": "What's the meaning of life",
+      "output": "The meaning of life is a philosophical question with various interpretations and perspectives"
     },
     {
-      "input": "How do I cook spaghetti?",
-      "output": "To cook spaghetti, you'll need pasta, water, salt, and sauce. Here's a step-by-step guide..."
+      "input": "How do I cook spaghetti",
+      "output": "To cook spaghetti, you'll need pasta, water, salt, and sauce Here's a step-by-step guide"
     },
     {
-      "input": "Who is the current president?",
-      "output": "The current president is [current president's name]."
+      "input": "Who is the current president",
+      "output": "The current president is [current president's name]"
     },
     {
-        "input": "What's the best way to stay healthy?",
-        "output": "To stay healthy, it's important to eat a balanced diet, exercise regularly, get enough sleep, and manage stress."
+        "input": "What's the best way to stay healthy",
+        "output": "To stay healthy, it's important to eat a balanced diet, exercise regularly, get enough sleep, and manage stress"
       },
       {
-        "input": "Can you help me with a math problem?",
-        "output": "Of course, please provide the details of the math problem you need help with."
+        "input": "Can you help me with a math problem",
+        "output": "Of course, please provide the details of the math problem you need help with"
       },
       {
-        "input": "Tell me a fascinating fact about space.",
-        "output": "Did you know that a day on Venus is longer than its year? Venus takes about 243 Earth days to complete one rotation on its axis, but only 225 Earth days to orbit the Sun."
+        "input": "Tell me a fascinating fact about space",
+        "output": "Did you know that a day on Venus is longer than its year Venus takes about 243 Earth days to complete one rotation on its axis, but only 225 Earth days to orbit the Sun"
       },
       {
-        "input": "How do I troubleshoot a network issue?",
-        "output": "To troubleshoot a network issue, you can start by checking your connections, restarting your router, and running diagnostic tests."
+        "input": "How do I troubleshoot a network issue",
+        "output": "To troubleshoot a network issue, you can start by checking your connections, restarting your router, and running diagnostic tests"
       },
       {
-        "input": "What's the difference between AI and machine learning?",
-        "output": "AI is a broad field that encompasses various technologies, including machine learning. Machine learning is a subset of AI focused on algorithms and statistical models."
+        "input": "What's the difference between AI and machine learning",
+        "output": "AI is a broad field that encompasses various technologies, including machine learning Machine learning is a subset of AI focused on algorithms and statistical models"
       },
       {
-        "input": "Can you recommend a good book to read?",
-        "output": "Sure, here are some highly recommended books across different genres..."
+        "input": "Can you recommend a good book to read",
+        "output": "Sure, here are some highly recommended books across different genres"
       },
       {
-        "input": "Tell me a joke.",
-        "output": "Why don't scientists trust atoms? Because they make up everything!"
+        "input": "Tell me a joke",
+        "output": "Why don't scientists trust atoms Because they make up everything"
       },
       {
-        "input": "What's the tallest mountain in the world?",
-        "output": "The tallest mountain in the world is Mount Everest, located in the Himalayas."
+        "input": "What's the tallest mountain in the world",
+        "output": "The tallest mountain in the world is Mount Everest, located in the Himalayas"
       },
       {
-        "input": "How do I learn a new language effectively?",
-        "output": "To learn a new language effectively, immerse yourself in the language, practice regularly, use language learning apps, and seek opportunities to converse with native speakers."
+        "input": "How do I learn a new language effectively",
+        "output": "To learn a new language effectively, immerse yourself in the language, practice regularly, use language learning apps, and seek opportunities to converse with native speakers"
       },
       {
-        "input": "Who is your favorite superhero?",
-        "output": "I don't have a favorite superhero, but I admire the bravery and selflessness of many fictional and real-life heroes."
+        "input": "Who is your favorite superhero",
+        "output": "I don't have a favorite superhero, but I admire the bravery and selflessness of many fictional and real-life heroes"
       },
       {
-          "input": "How can I improve my communication skills?",
-          "output": "To improve your communication skills, practice active listening, use clear and concise language, and be mindful of nonverbal cues."
+          "input": "How can I improve my communication skills",
+          "output": "To improve your communication skills, practice active listening, use clear and concise language, and be mindful of nonverbal cues"
         },
         {
-          "input": "What's the best way to prepare for a job interview?",
-          "output": "To prepare for a job interview, research the company, practice common interview questions, and prepare questions to ask the interviewer."
+          "input": "What's the best way to prepare for a job interview",
+          "output": "To prepare for a job interview, research the company, practice common interview questions, and prepare questions to ask the interviewer"
         },
         {
-          "input": "Tell me a fun fact about animals.",
-          "output": "Did you know that elephants can communicate over long distances using infrasound, which is sound below the human hearing range?"
+          "input": "Tell me a fun fact about animals",
+          "output": "Did you know that elephants can communicate over long distances using infrasound, which is sound below the human hearing range"
         },
         {
-          "input": "How do I create a budget?",
-          "output": "To create a budget, list your income and expenses, prioritize essential expenses, and allocate funds for savings and discretionary spending."
+          "input": "How do I create a budget",
+          "output": "To create a budget, list your income and expenses, prioritize essential expenses, and allocate funds for savings and discretionary spending"
         },
         {
-          "input": "Can you recommend a good movie to watch?",
-          "output": "Sure, here are some highly rated movies across different genres..."
+          "input": "Can you recommend a good movie to watch",
+          "output": "Sure, here are some highly rated movies across different genres"
         },
         {
-          "input": "What's the difference between a virus and a bacteria?",
-          "output": "Viruses are smaller than bacteria and require a host cell to replicate, while bacteria are single-celled organisms that can reproduce independently."
+          "input": "What's the difference between a virus and a bacteria",
+          "output": "Viruses are smaller than bacteria and require a host cell to replicate, while bacteria are single-celled organisms that can reproduce independently"
         },
         {
-          "input": "Tell me a joke.",
-          "output": "Why did the scarecrow win an award? Because he was outstanding in his field!"
+          "input": "Tell me a joke",
+          "output": "Why did the scarecrow win an award Because he was outstanding in his field"
         },
         {
-          "input": "What's the largest ocean in the world?",
-          "output": "The largest ocean in the world is the Pacific Ocean."
+          "input": "What's the largest ocean in the world",
+          "output": "The largest ocean in the world is the Pacific Ocean"
         },
         {
-          "input": "How do I improve my memory?",
-          "output": "To improve your memory, practice mnemonic techniques, stay mentally active, get enough sleep, and maintain a healthy lifestyle."
+          "input": "How do I improve my memory",
+          "output": "To improve your memory, practice mnemonic techniques, stay mentally active, get enough sleep, and maintain a healthy lifestyle"
         },
         {
-          "input": "Who is your favorite musician?",
-          "output": "I don't have a favorite musician, but I appreciate various genres of music and the creativity of talented artists."
+          "input": "Who is your favorite musician",
+          "output": "I don't have a favorite musician, but I appreciate various genres of music and the creativity of talented artists"
         },
         {
-            "input": "How do I improve my concentration?",
-            "output": "To improve concentration, eliminate distractions, practice mindfulness techniques, and break tasks into manageable chunks."
+            "input": "How do I improve my concentration",
+            "output": "To improve concentration, eliminate distractions, practice mindfulness techniques, and break tasks into manageable chunks"
           },
           {
-            "input": "What's the best way to start a morning routine?",
-            "output": "A good morning routine can include waking up early, exercising, having a nutritious breakfast, and setting goals for the day."
+            "input": "What's the best way to start a morning routine",
+            "output": "A good morning routine can include waking up early, exercising, having a nutritious breakfast, and setting goals for the day"
           },
           {
-            "input": "Tell me a fascinating fact about history.",
-            "output": "Did you know that the Great Wall of China is over 13,000 miles long and took centuries to build?"
+            "input": "Tell me a fascinating fact about history",
+            "output": "Did you know that the Great Wall of China is over 13,000 miles long and took centuries to build"
           },
           {
-            "input": "How do I become more organized?",
-            "output": "To become more organized, declutter your space, use a planner or digital organization tools, and prioritize tasks."
+            "input": "How do I become more organized",
+            "output": "To become more organized, declutter your space, use a planner or digital organization tools, and prioritize tasks"
           },
           {
-            "input": "Can you recommend a good podcast to listen to?",
-            "output": "Sure, here are some popular podcasts across different topics and genres..."
+            "input": "Can you recommend a good podcast to listen to",
+            "output": "Sure, here are some popular podcasts across different topics and genres"
           },
           {
-            "input": "What's the difference between climate and weather?",
-            "output": "Weather refers to short-term atmospheric conditions, while climate refers to long-term patterns of temperature, precipitation, and other factors."
+            "input": "What's the difference between climate and weather",
+            "output": "Weather refers to short-term atmospheric conditions, while climate refers to long-term patterns of temperature, precipitation, and other factors"
           },
           {
-            "input": "Tell me a joke.",
-            "output": "Why did the tomato turn red? Because it saw the salad dressing!"
+            "input": "Tell me a joke",
+            "output": "Why did the tomato turn red Because it saw the salad dressing"
           },
           {
-            "input": "What's the deepest lake in the world?",
-            "output": "The deepest lake in the world is Lake Baikal in Russia."
+            "input": "What's the deepest lake in the world",
+            "output": "The deepest lake in the world is Lake Baikal in Russia"
           },
           {
-            "input": "How do I develop good study habits?",
-            "output": "To develop good study habits, create a study schedule, find a quiet and comfortable study space, take breaks, and stay organized."
+            "input": "How do I develop good study habits",
+            "output": "To develop good study habits, create a study schedule, find a quiet and comfortable study space, take breaks, and stay organized"
           },
           {
-            "input": "Who is your favorite author?",
-            "output": "I don't have a favorite author, but I admire the creativity and storytelling skills of many writers."
+            "input": "Who is your favorite author",
+            "output": "I don't have a favorite author, but I admire the creativity and storytelling skills of many writers"
           },
           {
-              "input": "How do I improve my problem-solving skills?",
-              "output": "To improve problem-solving skills, practice critical thinking, break problems into smaller parts, seek feedback, and learn from mistakes."
+              "input": "How do I improve my problem-solving skills",
+              "output": "To improve problem-solving skills, practice critical thinking, break problems into smaller parts, seek feedback, and learn from mistakes"
             },
             {
-              "input": "What's the best way to stay motivated?",
-              "output": "To stay motivated, set clear goals, reward progress, surround yourself with supportive people, and stay focused on the bigger picture."
+              "input": "What's the best way to stay motivated",
+              "output": "To stay motivated, set clear goals, reward progress, surround yourself with supportive people, and stay focused on the bigger picture"
             },
             {
-              "input": "Tell me an interesting fact about the human brain.",
-              "output": "Did you know that the human brain can generate about 23 watts of power while awake? That's enough to power a light bulb!"
+              "input": "Tell me an interesting fact about the human brain",
+              "output": "Did you know that the human brain can generate about 23 watts of power while awake That's enough to power a light bulb"
             },
             {
-              "input": "How do I start a healthy eating plan?",
-              "output": "To start a healthy eating plan, focus on whole foods, include a variety of nutrients, drink plenty of water, and practice portion control."
+              "input": "How do I start a healthy eating plan",
+              "output": "To start a healthy eating plan, focus on whole foods, include a variety of nutrients, drink plenty of water, and practice portion control"
             },
             {
-              "input": "Can you recommend a good workout routine?",
-              "output": "Sure, here's a beginner-friendly workout routine that includes cardio, strength training, and flexibility exercises..."
+              "input": "Can you recommend a good workout routine",
+              "output": "Sure, here's a beginner-friendly workout routine that includes cardio, strength training, and flexibility exercises"
             },
             {
-              "input": "What's the difference between a computer program and an algorithm?",
-              "output": "A computer program is a set of instructions that tells a computer what to do, while an algorithm is a step-by-step procedure for solving a problem."
+              "input": "What's the difference between a computer program and an algorithm",
+              "output": "A computer program is a set of instructions that tells a computer what to do, while an algorithm is a step-by-step procedure for solving a problem"
             },
             {
-              "input": "Tell me a joke.",
-              "output": "Why did the bicycle fall over? Because it was two-tired!"
+              "input": "Tell me a joke",
+              "output": "Why did the bicycle fall over Because it was two-tired"
             },
             {
-              "input": "What's the longest river in the world?",
-              "output": "The longest river in the world is the Nile River in Africa."
+              "input": "What's the longest river in the world",
+              "output": "The longest river in the world is the Nile River in Africa"
             },
             {
-              "input": "How do I manage my time effectively?",
-              "output": "To manage time effectively, prioritize tasks, set deadlines, minimize distractions, and use time management tools."
+              "input": "How do I manage my time effectively",
+              "output": "To manage time effectively, prioritize tasks, set deadlines, minimize distractions, and use time management tools"
             },
             {
-              "input": "Who is your favorite actor?",
-              "output": "I don't have a favorite actor, but I appreciate the talent and versatility of many actors in the entertainment industry."
+              "input": "Who is your favorite actor",
+              "output": "I don't have a favorite actor, but I appreciate the talent and versatility of many actors in the entertainment industry"
             },
             {
-              "input": "What's the difference between a virus and malware?",
-              "output": "A virus is a type of malware that can replicate itself and spread to other files, while malware refers to any malicious software designed to harm computers or steal data."
+              "input": "What's the difference between a virus and malware",
+              "output": "A virus is a type of malware that can replicate itself and spread to other files, while malware refers to any malicious software designed to harm computers or steal data"
             },
             {
-              "input": "Can you tell me about the history of artificial intelligence?",
-              "output": "Artificial intelligence has roots dating back to ancient times, but modern AI research began in the 1950s with the development of early AI programs and concepts."
+              "input": "Can you tell me about the history of artificial intelligence",
+              "output": "Artificial intelligence has roots dating back to ancient times, but modern AI research began in the 1950s with the development of early AI programs and concepts"
             },
             {
-              "input": "How do I improve my public speaking skills?",
-              "output": "To improve public speaking skills, practice regularly, prepare and rehearse speeches, engage with the audience, and seek constructive feedback."
+              "input": "How do I improve my public speaking skills",
+              "output": "To improve public speaking skills, practice regularly, prepare and rehearse speeches, engage with the audience, and seek constructive feedback"
             },
             {
-              "input": "Tell me a fascinating fact about outer space.",
-              "output": "Did you know that a day on Mars is about 24.6 hours long, which is very close to Earth's 24-hour day?"
+              "input": "Tell me a fascinating fact about outer space",
+              "output": "Did you know that a day on Mars is about 246 hours long, which is very close to Earth's 24-hour day"
             },
             {
-              "input": "What's the best way to start a new hobby?",
-              "output": "To start a new hobby, explore different interests, set realistic goals, invest in necessary equipment or materials, and find communities or classes for support."
+              "input": "What's the best way to start a new hobby",
+              "output": "To start a new hobby, explore different interests, set realistic goals, invest in necessary equipment or materials, and find communities or classes for support"
             },
             {
-              "input": "Can you recommend a good book on leadership?",
-              "output": "Sure, here are some highly recommended books on leadership and management..."
+              "input": "Can you recommend a good book on leadership",
+              "output": "Sure, here are some highly recommended books on leadership and management"
             },
             {
-              "input": "What's the difference between a fact and an opinion?",
-              "output": "A fact is a statement that can be objectively proven true or false, while an opinion is a personal belief or judgment."
+              "input": "What's the difference between a fact and an opinion",
+              "output": "A fact is a statement that can be objectively proven true or false, while an opinion is a personal belief or judgment"
             },
             {
-              "input": "Tell me a joke.",
-              "output": "Why did the scarecrow win an award? Because he was outstanding in his field!"
+              "input": "Tell me a joke",
+              "output": "Why did the scarecrow win an award Because he was outstanding in his field"
             },
             {
-              "input": "What's the tallest building in the world?",
-              "output": "The tallest building in the world is the Burj Khalifa in Dubai, United Arab Emirates."
+              "input": "What's the tallest building in the world",
+              "output": "The tallest building in the world is the Burj Khalifa in Dubai, United Arab Emirates"
             },
             {
-              "input": "How do I develop a growth mindset?",
-              "output": "To develop a growth mindset, embrace challenges, learn from failures, seek feedback, and believe in the power of effort and perseverance."
+              "input": "How do I develop a growth mindset",
+              "output": "To develop a growth mindset, embrace challenges, learn from failures, seek feedback, and believe in the power of effort and perseverance"
             },
             {
-              "input": "Who is your favorite singer?",
-              "output": "I don't have a favorite singer, but I enjoy listening to a wide range of musical artists and genres."
+              "input": "Who is your favorite singer",
+              "output": "I don't have a favorite singer, but I enjoy listening to a wide range of musical artists and genres"
             },
             {
-              "input": "What's the difference between HTTP and HTTPS?",
-              "output": "HTTP (Hypertext Transfer Protocol) is a standard protocol for transmitting data over the internet, while HTTPS (Hypertext Transfer Protocol Secure) adds encryption for secure communication."
+              "input": "What's the difference between HTTP and HTTPS",
+              "output": "HTTP (Hypertext Transfer Protocol) is a standard protocol for transmitting data over the internet, while HTTPS (Hypertext Transfer Protocol Secure) adds encryption for secure communication"
             },
             {
-              "input": "Can you explain the concept of machine learning?",
-              "output": "Machine learning is a subset of artificial intelligence that focuses on algorithms and statistical models to enable computers to learn and make predictions from data."
+              "input": "Can you explain the concept of machine learning",
+              "output": "Machine learning is a subset of artificial intelligence that focuses on algorithms and statistical models to enable computers to learn and make predictions from data"
             },
             {
-              "input": "How do I stay motivated during challenging times?",
-              "output": "To stay motivated during challenging times, focus on positive thinking, set achievable goals, seek support from others, and practice self-care."
+              "input": "How do I stay motivated during challenging times",
+              "output": "To stay motivated during challenging times, focus on positive thinking, set achievable goals, seek support from others, and practice self-care"
             },
             {
-              "input": "Tell me an interesting fact about animals.",
-              "output": "Did you know that octopuses have three hearts and blue blood? They're also known for their intelligence and problem-solving abilities."
+              "input": "Tell me an interesting fact about animals",
+              "output": "Did you know that octopuses have three hearts and blue blood They're also known for their intelligence and problem-solving abilities"
             },
             {
-              "input": "What's the best way to start a small business?",
-              "output": "To start a small business, conduct market research, create a business plan, secure funding, and focus on providing value to customers."
+              "input": "What's the best way to start a small business",
+              "output": "To start a small business, conduct market research, create a business plan, secure funding, and focus on providing value to customers"
             },
             {
-              "input": "Can you recommend a good documentary to watch?",
-              "output": "Sure, here are some highly acclaimed documentaries across different topics and themes..."
+              "input": "Can you recommend a good documentary to watch",
+              "output": "Sure, here are some highly acclaimed documentaries across different topics and themes"
             },
             {
-              "input": "What's the difference between a debit card and a credit card?",
-              "output": "A debit card deducts funds directly from your bank account, while a credit card allows you to borrow money up to a certain limit and repay it later."
+              "input": "What's the difference between a debit card and a credit card",
+              "output": "A debit card deducts funds directly from your bank account, while a credit card allows you to borrow money up to a certain limit and repay it later"
             },
             {
-              "input": "Tell me a joke.",
-              "output": "Why don't scientists trust atoms? Because they make up everything!"
+              "input": "Tell me a joke",
+              "output": "Why don't scientists trust atoms Because they make up everything"
             },
             {
-              "input": "What's the deepest point in the ocean?",
-              "output": "The deepest point in the ocean is the Mariana Trench, which reaches a depth of over 36,000 feet."
+              "input": "What's the deepest point in the ocean",
+              "output": "The deepest point in the ocean is the Mariana Trench, which reaches a depth of over 36,000 feet"
             },
             {
-              "input": "How do I overcome procrastination?",
-              "output": "To overcome procrastination, break tasks into smaller steps, set deadlines, eliminate distractions, and focus on the rewards of completing tasks."
+              "input": "How do I overcome procrastination",
+              "output": "To overcome procrastination, break tasks into smaller steps, set deadlines, eliminate distractions, and focus on the rewards of completing tasks"
             },
             {
-              "input": "Who is your favorite director?",
-              "output": "I don't have a favorite director, but I appreciate the creativity and storytelling styles of many filmmakers."
+              "input": "Who is your favorite director",
+              "output": "I don't have a favorite director, but I appreciate the creativity and storytelling styles of many filmmakers"
             },
             {
-              "input": "What's the difference between a router and a modem?",
-              "output": "A router connects multiple devices to a network and manages data traffic, while a modem connects your network to the internet service provider's network."
+              "input": "What's the difference between a router and a modem",
+              "output": "A router connects multiple devices to a network and manages data traffic, while a modem connects your network to the internet service provider's network"
             },
             {
-              "input": "Can you explain the concept of virtual reality?",
-              "output": "Virtual reality (VR) is a technology that simulates a realistic and immersive environment using computer-generated simulations, often experienced through VR headsets."
+              "input": "Can you explain the concept of virtual reality",
+              "output": "Virtual reality (VR) is a technology that simulates a realistic and immersive environment using computer-generated simulations, often experienced through VR headsets"
             },
             {
-              "input": "How do I develop strong leadership skills?",
-              "output": "To develop strong leadership skills, practice effective communication, lead by example, delegate tasks, and inspire and motivate team members."
+              "input": "How do I develop strong leadership skills",
+              "output": "To develop strong leadership skills, practice effective communication, lead by example, delegate tasks, and inspire and motivate team members"
             },
             {
-              "input": "Tell me an interesting fact about plants.",
-              "output": "Did you know that the world's largest flower is the Rafflesia arnoldii, which can grow up to 3 feet in diameter and weigh over 15 pounds?"
+              "input": "Tell me an interesting fact about plants",
+              "output": "Did you know that the world's largest flower is the Rafflesia arnoldii, which can grow up to 3 feet in diameter and weigh over 15 pounds"
             },
             {
-              "input": "What's the best way to start investing?",
-              "output": "To start investing, educate yourself about investment options, set financial goals, diversify your portfolio, and consider seeking advice from financial experts."
+              "input": "What's the best way to start investing",
+              "output": "To start investing, educate yourself about investment options, set financial goals, diversify your portfolio, and consider seeking advice from financial experts"
             },
             {
-              "input": "Can you recommend a good website for learning new skills?",
-              "output": "Sure, here are some reputable websites that offer courses and resources for learning various skills..."
+              "input": "Can you recommend a good website for learning new skills",
+              "output": "Sure, here are some reputable websites that offer courses and resources for learning various skills"
             },
             {
-              "input": "What's the difference between an operating system and software?",
-              "output": "An operating system manages computer hardware and software resources, while software refers to programs and applications that run on a computer."
+              "input": "What's the difference between an operating system and software",
+              "output": "An operating system manages computer hardware and software resources, while software refers to programs and applications that run on a computer"
             },
             {
-              "input": "Tell me a joke.",
-              "output": "Why did the computer go to the doctor? Because it had a virus!"
+              "input": "Tell me a joke",
+              "output": "Why did the computer go to the doctor Because it had a virus"
             },
             {
-              "input": "What's the highest mountain in Africa?",
-              "output": "The highest mountain in Africa is Mount Kilimanjaro in Tanzania."
+              "input": "What's the highest mountain in Africa",
+              "output": "The highest mountain in Africa is Mount Kilimanjaro in Tanzania"
             },
             {
-              "input": "How do I stay focused on my goals?",
-              "output": "To stay focused on goals, create a vision board, break goals into actionable steps, track progress, and stay motivated with rewards."
+              "input": "How do I stay focused on my goals",
+              "output": "To stay focused on goals, create a vision board, break goals into actionable steps, track progress, and stay motivated with rewards"
             },
             {
-              "input": "Who is your favorite artist?",
-              "output": "I don't have a favorite artist, but I admire the creativity and talent of many artists across different forms of art."
+              "input": "Who is your favorite artist",
+              "output": "I don't have a favorite artist, but I admire the creativity and talent of many artists across different forms of art"
             },
             {
-              "input": "What's the difference between a virus and a bacterium?",
-              "output": "Viruses are smaller than bacteria and require a host cell to replicate, while bacteria are single-celled organisms that can reproduce independently."
+              "input": "What's the difference between a virus and a bacterium",
+              "output": "Viruses are smaller than bacteria and require a host cell to replicate, while bacteria are single-celled organisms that can reproduce independently"
             },
             {
-              "input": "Can you explain the concept of cloud computing?",
-              "output": "Cloud computing refers to the delivery of computing services over the internet, including storage, processing power, and software applications."
+              "input": "Can you explain the concept of cloud computing",
+              "output": "Cloud computing refers to the delivery of computing services over the internet, including storage, processing power, and software applications"
             },
             {
-              "input": "How do I develop a positive mindset?",
-              "output": "To develop a positive mindset, practice gratitude, focus on solutions rather than problems, surround yourself with positive influences, and practice self-compassion."
+              "input": "How do I develop a positive mindset",
+              "output": "To develop a positive mindset, practice gratitude, focus on solutions rather than problems, surround yourself with positive influences, and practice self-compassion"
             },
             {
-              "input": "Tell me an interesting fact about the human body.",
-              "output": "Did you know that the human body contains enough iron to make a small nail, enough carbon to make 900 pencils, and enough gold to make a small ring?"
+              "input": "Tell me an interesting fact about the human body",
+              "output": "Did you know that the human body contains enough iron to make a small nail, enough carbon to make 900 pencils, and enough gold to make a small ring"
             },
             {
-              "input": "What's the best way to start a fitness routine?",
-              "output": "To start a fitness routine, set realistic goals, choose activities you enjoy, vary your workouts, and stay consistent with exercise."
+              "input": "What's the best way to start a fitness routine",
+              "output": "To start a fitness routine, set realistic goals, choose activities you enjoy, vary your workouts, and stay consistent with exercise"
             },
             {
-              "input": "Can you recommend a good podcast on science?",
-              "output": "Sure, here are some popular science podcasts that cover a wide range of topics..."
+              "input": "Can you recommend a good podcast on science",
+              "output": "Sure, here are some popular science podcasts that cover a wide range of topics"
             },
             {
-              "input": "What's the difference between a democracy and a dictatorship?",
-              "output": "In a democracy, power is held by the people through elected representatives, while in a dictatorship, power is concentrated in the hands of one leader or a small group."
+              "input": "What's the difference between a democracy and a dictatorship",
+              "output": "In a democracy, power is held by the people through elected representatives, while in a dictatorship, power is concentrated in the hands of one leader or a small group"
             },
             {
-              "input": "Tell me a joke.",
-              "output": "Why did the scarecrow become a successful businessman? Because he was outstanding in his field!"
+              "input": "Tell me a joke",
+              "output": "Why did the scarecrow become a successful businessman Because he was outstanding in his field"
             },
             {
-              "input": "What's the largest desert in the world?",
-              "output": "The largest desert in the world is the Antarctic Desert, followed by the Arctic Desert and the Sahara Desert."
+              "input": "What's the largest desert in the world",
+              "output": "The largest desert in the world is the Antarctic Desert, followed by the Arctic Desert and the Sahara Desert"
             },
             {
-              "input": "How do I build resilience?",
-              "output": "To build resilience, cultivate optimism, develop problem-solving skills, maintain strong social connections, and practice self-care."
+              "input": "How do I build resilience",
+              "output": "To build resilience, cultivate optimism, develop problem-solving skills, maintain strong social connections, and practice self-care"
             },
             {
-              "input": "Who is your favorite scientist?",
-              "output": "I don't have a favorite scientist, but I admire the contributions and discoveries of many scientists throughout history."
+              "input": "Who is your favorite scientist",
+              "output": "I don't have a favorite scientist, but I admire the contributions and discoveries of many scientists throughout history"
             },
             {
-              "input": "What's the difference between hardware and software?",
-              "output": "Hardware refers to physical components of a computer system, such as the CPU and memory, while software includes programs and applications that run on hardware."
+              "input": "What's the difference between hardware and software",
+              "output": "Hardware refers to physical components of a computer system, such as the CPU and memory, while software includes programs and applications that run on hardware"
             },
             {
-              "input": "Can you explain the concept of quantum computing?",
-              "output": "Quantum computing leverages principles of quantum mechanics to perform complex computations at speeds exponentially faster than classical computers."
+              "input": "Can you explain the concept of quantum computing",
+              "output": "Quantum computing leverages principles of quantum mechanics to perform complex computations at speeds exponentially faster than classical computers"
             },
             {
-              "input": "How do I develop emotional intelligence?",
-              "output": "To develop emotional intelligence, practice self-awareness, empathy, effective communication, and conflict resolution skills."
+              "input": "How do I develop emotional intelligence",
+              "output": "To develop emotional intelligence, practice self-awareness, empathy, effective communication, and conflict resolution skills"
             },
             {
-              "input": "Tell me an interesting fact about dinosaurs.",
-              "output": "Did you know that the Tyrannosaurus rex had a bite force of about 8,000 pounds, making it one of the most powerful predators in history?"
+              "input": "Tell me an interesting fact about dinosaurs",
+              "output": "Did you know that the Tyrannosaurus rex had a bite force of about 8,000 pounds, making it one of the most powerful predators in history"
             },
             {
-              "input": "What's the best way to start a meditation practice?",
-              "output": "To start a meditation practice, find a quiet and comfortable space, focus on your breath or a mantra, practice regularly, and be patient with yourself."
+              "input": "What's the best way to start a meditation practice",
+              "output": "To start a meditation practice, find a quiet and comfortable space, focus on your breath or a mantra, practice regularly, and be patient with yourself"
             },
             {
-              "input": "Can you recommend a good website for learning coding?",
-              "output": "Sure, here are some popular websites and platforms for learning coding and programming languages..."
+              "input": "Can you recommend a good website for learning coding",
+              "output": "Sure, here are some popular websites and platforms for learning coding and programming languages"
             },
             {
-              "input": "What's the difference between a manager and a leader?",
-              "output": "A manager focuses on tasks and processes, while a leader inspires and motivates people, sets vision and goals, and fosters team collaboration."
+              "input": "What's the difference between a manager and a leader",
+              "output": "A manager focuses on tasks and processes, while a leader inspires and motivates people, sets vision and goals, and fosters team collaboration"
             },
             {
-              "input": "Tell me a joke.",
-              "output": "Why don't skeletons fight each other? They don't have the guts!"
+              "input": "Tell me a joke",
+              "output": "Why don't skeletons fight each other They don't have the guts"
             },
             {
-              "input": "What's the largest island in the world?",
-              "output": "The largest island in the world is Greenland, followed by New Guinea and Borneo."
+              "input": "What's the largest island in the world",
+              "output": "The largest island in the world is Greenland, followed by New Guinea and Borneo"
             },
             {
-              "input": "How do I develop effective problem-solving skills?",
-              "output": "To develop effective problem-solving skills, analyze problems thoroughly, consider multiple solutions, test hypotheses, and learn from outcomes."
+              "input": "How do I develop effective problem-solving skills",
+              "output": "To develop effective problem-solving skills, analyze problems thoroughly, consider multiple solutions, test hypotheses, and learn from outcomes"
             },
             {
-              "input": "Who is your favorite musician?",
-              "output": "I don't have a favorite musician, but I appreciate various genres of music and the creativity of talented artists."
+              "input": "Who is your favorite musician",
+              "output": "I don't have a favorite musician, but I appreciate various genres of music and the creativity of talented artists"
             },
             {
-              "input": "What's the difference between an email and a letter?",
-              "output": "An email is an electronic message sent through the internet."
+              "input": "What's the difference between an email and a letter",
+              "output": "An email is an electronic message sent through the internet"
             },
               {
-                "input": "How do I improve my problem-solving skills?",
-                "output": "To improve problem-solving skills, practice critical thinking, break problems into smaller parts, seek feedback, and learn from mistakes."
+                "input": "How do I improve my problem-solving skills",
+                "output": "To improve problem-solving skills, practice critical thinking, break problems into smaller parts, seek feedback, and learn from mistakes"
               },
               {
-                "input": "What's the best way to stay motivated?",
-                "output": "To stay motivated, set clear goals, reward progress, surround yourself with supportive people, and stay focused on the bigger picture."
+                "input": "What's the best way to stay motivated",
+                "output": "To stay motivated, set clear goals, reward progress, surround yourself with supportive people, and stay focused on the bigger picture"
               },
               {
-                "input": "Tell me an interesting fact about the human brain.",
-                "output": "Did you know that the human brain can generate about 23 watts of power while awake? That's enough to power a light bulb!"
+                "input": "Tell me an interesting fact about the human brain",
+                "output": "Did you know that the human brain can generate about 23 watts of power while awake That's enough to power a light bulb"
               },
               {
-                "input": "How do I start a healthy eating plan?",
-                "output": "To start a healthy eating plan, focus on whole foods, include a variety of nutrients, drink plenty of water, and practice portion control."
+                "input": "How do I start a healthy eating plan",
+                "output": "To start a healthy eating plan, focus on whole foods, include a variety of nutrients, drink plenty of water, and practice portion control"
               },
               {
-                "input": "Can you recommend a good workout routine?",
-                "output": "Sure, here's a beginner-friendly workout routine that includes cardio, strength training, and flexibility exercises..."
+                "input": "Can you recommend a good workout routine",
+                "output": "Sure, here's a beginner-friendly workout routine that includes cardio, strength training, and flexibility exercises"
               },
               {
-                "input": "What's the difference between a computer program and an algorithm?",
-                "output": "A computer program is a set of instructions that tells a computer what to do, while an algorithm is a step-by-step procedure for solving a problem."
+                "input": "What's the difference between a computer program and an algorithm",
+                "output": "A computer program is a set of instructions that tells a computer what to do, while an algorithm is a step-by-step procedure for solving a problem"
               },
               {
-                "input": "Tell me a joke.",
-                "output": "Why did the bicycle fall over? Because it was two-tired!"
+                "input": "Tell me a joke",
+                "output": "Why did the bicycle fall over Because it was two-tired"
               },
               {
-                "input": "What's the longest river in the world?",
-                "output": "The longest river in the world is the Nile River in Africa."
+                "input": "What's the longest river in the world",
+                "output": "The longest river in the world is the Nile River in Africa"
               },
               {
-                "input": "How do I manage my time effectively?",
-                "output": "To manage time effectively, prioritize tasks, set deadlines, minimize distractions, and use time management tools."
+                "input": "How do I manage my time effectively",
+                "output": "To manage time effectively, prioritize tasks, set deadlines, minimize distractions, and use time management tools"
               },
               {
-                "input": "Who is your favorite actor?",
-                "output": "I don't have a favorite actor, but I appreciate the talent and versatility of many actors in the entertainment industry."
+                "input": "Who is your favorite actor",
+                "output": "I don't have a favorite actor, but I appreciate the talent and versatility of many actors in the entertainment industry"
               },
               {
-                "input": "What's the difference between a virus and malware?",
-                "output": "A virus is a type of malware that can replicate itself and spread to other files, while malware refers to any malicious software designed to harm computers or steal data."
+                "input": "What's the difference between a virus and malware",
+                "output": "A virus is a type of malware that can replicate itself and spread to other files, while malware refers to any malicious software designed to harm computers or steal data"
               },
               {
-                "input": "Can you tell me about the history of artificial intelligence?",
-                "output": "Artificial intelligence has roots dating back to ancient times, but modern AI research began in the 1950s with the development of early AI programs and concepts."
+                "input": "Can you tell me about the history of artificial intelligence",
+                "output": "Artificial intelligence has roots dating back to ancient times, but modern AI research began in the 1950s with the development of early AI programs and concepts"
               },
               {
-                "input": "How do I improve my public speaking skills?",
-                "output": "To improve public speaking skills, practice regularly, prepare and rehearse speeches, engage with the audience, and seek constructive feedback."
+                "input": "How do I improve my public speaking skills",
+                "output": "To improve public speaking skills, practice regularly, prepare and rehearse speeches, engage with the audience, and seek constructive feedback"
               },
               {
-                "input": "Tell me a fascinating fact about outer space.",
-                "output": "Did you know that a day on Mars is about 24.6 hours long, which is very close to Earth's 24-hour day?"
+                "input": "Tell me a fascinating fact about outer space",
+                "output": "Did you know that a day on Mars is about 246 hours long, which is very close to Earth's 24-hour day"
               },
               {
-                "input": "What's the best way to start a new hobby?",
-                "output": "To start a new hobby, explore different interests, set realistic goals, invest in necessary equipment or materials, and find communities or classes for support."
+                "input": "What's the best way to start a new hobby",
+                "output": "To start a new hobby, explore different interests, set realistic goals, invest in necessary equipment or materials, and find communities or classes for support"
               },
               {
-                "input": "Can you recommend a good book on leadership?",
-                "output": "Sure, here are some highly recommended books on leadership and management..."
+                "input": "Can you recommend a good book on leadership",
+                "output": "Sure, here are some highly recommended books on leadership and management"
               },
               {
-                "input": "What's the difference between a fact and an opinion?",
-                "output": "A fact is a statement that can be objectively proven true or false, while an opinion is a personal belief or judgment."
+                "input": "What's the difference between a fact and an opinion",
+                "output": "A fact is a statement that can be objectively proven true or false, while an opinion is a personal belief or judgment"
               },
               {
-                "input": "Tell me a joke.",
-                "output": "Why did the scarecrow win an award? Because he was outstanding in his field!"
+                "input": "Tell me a joke",
+                "output": "Why did the scarecrow win an award Because he was outstanding in his field"
               },
               {
-                "input": "What's the tallest building in the world?",
-                "output": "The tallest building in the world is the Burj Khalifa in Dubai, United Arab Emirates."
+                "input": "What's the tallest building in the world",
+                "output": "The tallest building in the world is the Burj Khalifa in Dubai, United Arab Emirates"
               },
               {
-                "input": "How do I develop a growth mindset?",
-                "output": "To develop a growth mindset, embrace challenges, learn from failures, seek feedback, and believe in the power of effort and perseverance."
+                "input": "How do I develop a growth mindset",
+                "output": "To develop a growth mindset, embrace challenges, learn from failures, seek feedback, and believe in the power of effort and perseverance"
               },
               {
-                "input": "Who is your favorite singer?",
-                "output": "I don't have a favorite singer, but I enjoy listening to a wide range of musical artists and genres."
+                "input": "Who is your favorite singer",
+                "output": "I don't have a favorite singer, but I enjoy listening to a wide range of musical artists and genres"
               },
               {
-                "input": "What's the difference between HTTP and HTTPS?",
-                "output": "HTTP (Hypertext Transfer Protocol) is a standard protocol for transmitting data over the internet, while HTTPS (Hypertext Transfer Protocol Secure) adds encryption for secure communication."
+                "input": "What's the difference between HTTP and HTTPS",
+                "output": "HTTP (Hypertext Transfer Protocol) is a standard protocol for transmitting data over the internet, while HTTPS (Hypertext Transfer Protocol Secure) adds encryption for secure communication"
               },
               {
-                "input": "Can you explain the concept of machine learning?",
-                "output": "Machine learning is a subset of artificial intelligence that focuses on algorithms and statistical models to enable computers to learn and make predictions from data."
+                "input": "Can you explain the concept of machine learning",
+                "output": "Machine learning is a subset of artificial intelligence that focuses on algorithms and statistical models to enable computers to learn and make predictions from data"
               },
               {
-                "input": "How do I stay motivated during challenging times?",
-                "output": "To stay motivated during challenging times, focus on positive thinking, set achievable goals, seek support from others, and practice self-care."
+                "input": "How do I stay motivated during challenging times",
+                "output": "To stay motivated during challenging times, focus on positive thinking, set achievable goals, seek support from others, and practice self-care"
               },
               {
-                "input": "Tell me an interesting fact about animals.",
-                "output": "Did you know that octopuses have three hearts and blue blood? They're also known for their intelligence and problem-solving abilities."
+                "input": "Tell me an interesting fact about animals",
+                "output": "Did you know that octopuses have three hearts and blue blood They're also known for their intelligence and problem-solving abilities"
               },
               {
-                "input": "What's the best way to start a small business?",
-                "output": "To start a small business, conduct market research, create a business plan, secure funding, and focus on providing value to customers."
+                "input": "What's the best way to start a small business",
+                "output": "To start a small business, conduct market research, create a business plan, secure funding, and focus on providing value to customers"
               },
               {
-                "input": "Can you recommend a good documentary to watch?",
-                "output": "Sure, here are some highly acclaimed documentaries across different topics and themes..."
+                "input": "Can you recommend a good documentary to watch",
+                "output": "Sure, here are some highly acclaimed documentaries across different topics and themes"
               },
               {
-                "input": "What's the difference between a debit card and a credit card?",
-                "output": "A debit card deducts funds directly from your bank account, while a credit card allows you to borrow money up to a certain limit and repay it later."
+                "input": "What's the difference between a debit card and a credit card",
+                "output": "A debit card deducts funds directly from your bank account, while a credit card allows you to borrow money up to a certain limit and repay it later"
               },
               {
-                "input": "Tell me a joke.",
-                "output": "Why don't scientists trust atoms? Because they make up everything!"
+                "input": "Tell me a joke",
+                "output": "Why don't scientists trust atoms Because they make up everything"
               },
               {
-                "input": "What's the deepest point in the ocean?",
-                "output": "The deepest point in the ocean is the Mariana Trench, which reaches a depth of over 36,000 feet."
+                "input": "What's the deepest point in the ocean",
+                "output": "The deepest point in the ocean is the Mariana Trench, which reaches a depth of over 36,000 feet"
               },
               {
-                "input": "How do I overcome procrastination?",
-                "output": "To overcome procrastination, break tasks into smaller steps, set deadlines, eliminate distractions, and focus on the rewards of completing tasks."
+                "input": "How do I overcome procrastination",
+                "output": "To overcome procrastination, break tasks into smaller steps, set deadlines, eliminate distractions, and focus on the rewards of completing tasks"
               },
               {
-                "input": "Who is your favorite director?",
-                "output": "I don't have a favorite director, but I appreciate the creativity and storytelling styles of many filmmakers."
+                "input": "Who is your favorite director",
+                "output": "I don't have a favorite director, but I appreciate the creativity and storytelling styles of many filmmakers"
               },
               {
-                "input": "What's the difference between a router and a modem?",
-                "output": "A router connects multiple devices to a network and manages data traffic, while a modem connects your network to the internet service provider's network."
+                "input": "What's the difference between a router and a modem",
+                "output": "A router connects multiple devices to a network and manages data traffic, while a modem connects your network to the internet service provider's network"
               },
               {
-                "input": "Can you explain the concept of virtual reality?",
-                "output": "Virtual reality (VR) is a technology that simulates a realistic and immersive environment using computer-generated simulations, often experienced through VR headsets."
+                "input": "Can you explain the concept of virtual reality",
+                "output": "Virtual reality (VR) is a technology that simulates a realistic and immersive environment using computer-generated simulations, often experienced through VR headsets"
               },
               {
-                "input": "How do I develop strong leadership skills?",
-                "output": "To develop strong leadership skills, practice effective communication, lead by example, delegate tasks, and inspire and motivate team members."
+                "input": "How do I develop strong leadership skills",
+                "output": "To develop strong leadership skills, practice effective communication, lead by example, delegate tasks, and inspire and motivate team members"
               },
               {
-                "input": "Tell me an interesting fact about plants.",
-                "output": "Did you know that the world's largest flower is the Rafflesia arnoldii, which can grow up to 3 feet in diameter and weigh over 15 pounds?"
+                "input": "Tell me an interesting fact about plants",
+                "output": "Did you know that the world's largest flower is the Rafflesia arnoldii, which can grow up to 3 feet in diameter and weigh over 15 pounds"
               },
               {
-                "input": "What's the best way to start investing?",
-                "output": "To start investing, educate yourself about investment options, set financial goals, diversify your portfolio, and consider seeking advice from financial experts."
+                "input": "What's the best way to start investing",
+                "output": "To start investing, educate yourself about investment options, set financial goals, diversify your portfolio, and consider seeking advice from financial experts"
               },
               {
-                "input": "Can you recommend a good website for learning new skills?",
-                "output": "Sure, here are some reputable websites that offer courses and resources for learning various skills..."
+                "input": "Can you recommend a good website for learning new skills",
+                "output": "Sure, here are some reputable websites that offer courses and resources for learning various skills"
               },
               {
-                "input": "What's the difference between an operating system and software?",
-                "output": "An operating system manages computer hardware and software resources, while software refers to programs and applications that run on a computer."
+                "input": "What's the difference between an operating system and software",
+                "output": "An operating system manages computer hardware and software resources, while software refers to programs and applications that run on a computer"
               },
               {
-                "input": "Tell me a joke.",
-                "output": "Why did the computer go to the doctor? Because it had a virus!"
+                "input": "Tell me a joke",
+                "output": "Why did the computer go to the doctor Because it had a virus"
               },
               {
-                "input": "What's the highest mountain in Africa?",
-                "output": "The highest mountain in Africa is Mount Kilimanjaro in Tanzania."
+                "input": "What's the highest mountain in Africa",
+                "output": "The highest mountain in Africa is Mount Kilimanjaro in Tanzania"
               },
               {
-                "input": "How do I stay focused on my goals?",
-                "output": "To stay focused on goals, create a vision board, break goals into actionable steps, track progress, and stay motivated with rewards."
+                "input": "How do I stay focused on my goals",
+                "output": "To stay focused on goals, create a vision board, break goals into actionable steps, track progress, and stay motivated with rewards"
               },
               {
-                "input": "Who is your favorite artist?",
-                "output": "I don't have a favorite artist, but I admire the creativity and talent of many artists across different forms of art."
+                "input": "Who is your favorite artist",
+                "output": "I don't have a favorite artist, but I admire the creativity and talent of many artists across different forms of art"
               },
               {
-                "input": "What's the difference between a virus and a bacterium?",
-                "output": "Viruses are smaller than bacteria and require a host cell to replicate, while bacteria are single-celled organisms that can reproduce independently."
+                "input": "What's the difference between a virus and a bacterium",
+                "output": "Viruses are smaller than bacteria and require a host cell to replicate, while bacteria are single-celled organisms that can reproduce independently"
               },
               {
-                "input": "Can you explain the concept of cloud computing?",
-                "output": "Cloud computing refers to the delivery of computing services over the internet, including storage, processing power, and software applications."
+                "input": "Can you explain the concept of cloud computing",
+                "output": "Cloud computing refers to the delivery of computing services over the internet, including storage, processing power, and software applications"
               },
               {
-                "input": "How do I develop a positive mindset?",
-                "output": "To develop a positive mindset, practice gratitude, focus on solutions rather than problems, surround yourself with positive influences, and practice self-compassion."
+                "input": "How do I develop a positive mindset",
+                "output": "To develop a positive mindset, practice gratitude, focus on solutions rather than problems, surround yourself with positive influences, and practice self-compassion"
               },
               {
-                "input": "Tell me an interesting fact about the human body.",
-                "output": "Did you know that the human body contains enough iron to make a small nail, enough carbon to make 900 pencils, and enough gold to make a small ring?"
+                "input": "Tell me an interesting fact about the human body",
+                "output": "Did you know that the human body contains enough iron to make a small nail, enough carbon to make 900 pencils, and enough gold to make a small ring"
               },
               {
-                "input": "What's the best way to start a fitness routine?",
-                "output": "To start a fitness routine, set realistic goals, choose activities you enjoy, vary your workouts, and stay consistent with exercise."
+                "input": "What's the best way to start a fitness routine",
+                "output": "To start a fitness routine, set realistic goals, choose activities you enjoy, vary your workouts, and stay consistent with exercise"
               },
               {
-                "input": "Can you recommend a good podcast on science?",
-                "output": "Sure, here are some popular science podcasts that cover a wide range of topics..."
+                "input": "Can you recommend a good podcast on science",
+                "output": "Sure, here are some popular science podcasts that cover a wide range of topics"
               },
               {
-                "input": "What's the difference between a democracy and a dictatorship?",
-                "output": "In a democracy, power is held by the people through elected representatives, while in a dictatorship, power is concentrated in the hands of one leader or a small group."
+                "input": "What's the difference between a democracy and a dictatorship",
+                "output": "In a democracy, power is held by the people through elected representatives, while in a dictatorship, power is concentrated in the hands of one leader or a small group"
               },
               {
-                "input": "Tell me a joke.",
-                "output": "Why did the scarecrow become a successful businessman? Because he was outstanding in his field!"
+                "input": "Tell me a joke",
+                "output": "Why did the scarecrow become a successful businessman Because he was outstanding in his field"
               },
               {
-                "input": "What's the largest island in the world?",
-                "output": "The largest island in the world is Greenland, followed by New Guinea and Borneo."
+                "input": "What's the largest island in the world",
+                "output": "The largest island in the world is Greenland, followed by New Guinea and Borneo"
               },
               {
-                "input": "How do I develop effective problem-solving skills?",
-                "output": "To develop effective problem-solving skills, analyze problems thoroughly, consider multiple solutions, test hypotheses, and learn from outcomes."
+                "input": "How do I develop effective problem-solving skills",
+                "output": "To develop effective problem-solving skills, analyze problems thoroughly, consider multiple solutions, test hypotheses, and learn from outcomes"
               },
               {
-                "input": "Who is your favorite musician?",
-                "output": "I don't have a favorite musician, but I appreciate various genres of music and the creativity of talented artists."
+                "input": "Who is your favorite musician",
+                "output": "I don't have a favorite musician, but I appreciate various genres of music and the creativity of talented artists"
               },
               {
-                "input": "What's the difference between an email and a letter?",
-                "output": "An email is an electronic message sent through the internet, while a letter is a physical document sent through mail or courier."
+                "input": "What's the difference between an email and a letter",
+                "output": "An email is an electronic message sent through the internet, while a letter is a physical document sent through mail or courier"
               },
               {
-                "input": "Can you explain the concept of quantum computing?",
-                "output": "Quantum computing leverages principles of quantum mechanics to perform complex computations at speeds exponentially faster than classical computers."
+                "input": "Can you explain the concept of quantum computing",
+                "output": "Quantum computing leverages principles of quantum mechanics to perform complex computations at speeds exponentially faster than classical computers"
               },
               {
-                "input": "How do I develop emotional intelligence?",
-                "output": "To develop emotional intelligence, practice self-awareness, empathy, effective communication, and conflict resolution skills."
+                "input": "How do I develop emotional intelligence",
+                "output": "To develop emotional intelligence, practice self-awareness, empathy, effective communication, and conflict resolution skills"
               },
               {
-                "input": "Tell me an interesting fact about dinosaurs.",
-                "output": "Did you know that the Tyrannosaurus rex had a bite force of about 8,000 pounds, making it one of the most powerful predators in history?"
+                "input": "Tell me an interesting fact about dinosaurs",
+                "output": "Did you know that the Tyrannosaurus rex had a bite force of about 8,000 pounds, making it one of the most powerful predators in history"
               },
               {
-                "input": "What's the best way to start a meditation practice?",
-                "output": "To start a meditation practice, find a quiet and comfortable space, focus on your breath or a mantra, practice regularly, and be patient with yourself."
+                "input": "What's the best way to start a meditation practice",
+                "output": "To start a meditation practice, find a quiet and comfortable space, focus on your breath or a mantra, practice regularly, and be patient with yourself"
               },
               {
-                "input": "Can you recommend a good website for learning coding?",
-                "output": "Sure, here are some popular websites and platforms for learning coding and programming languages..."
+                "input": "Can you recommend a good website for learning coding",
+                "output": "Sure, here are some popular websites and platforms for learning coding and programming languages"
               },
               {
-                "input": "What's the difference between a manager and a leader?",
-                "output": "A manager focuses on tasks and processes, while a leader inspires and motivates people, sets vision and goals, and fosters team collaboration."
+                "input": "What's the difference between a manager and a leader",
+                "output": "A manager focuses on tasks and processes, while a leader inspires and motivates people, sets vision and goals, and fosters team collaboration"
               },
               {
-                "input": "Tell me a joke.",
-                "output": "Why don't skeletons fight each other? They don't have the guts!"
+                "input": "Tell me a joke",
+                "output": "Why don't skeletons fight each other They don't have the guts"
               },
               {
-                "input": "What's the largest desert in the world?",
-                "output": "The largest desert in the world is the Antarctic Desert, followed by the Arctic Desert and the Sahara Desert."
+                "input": "What's the largest desert in the world",
+                "output": "The largest desert in the world is the Antarctic Desert, followed by the Arctic Desert and the Sahara Desert"
               },
               {
-                "input": "How do I build resilience?",
-                "output": "To build resilience, cultivate optimism, develop problem-solving skills, maintain strong social connections, and practice self-care."
+                "input": "How do I build resilience",
+                "output": "To build resilience, cultivate optimism, develop problem-solving skills, maintain strong social connections, and practice self-care"
               },
               {
-                "input": "Who is your favorite scientist?",
-                "output": "I don't have a favorite scientist, but I admire the contributions and discoveries of many scientists throughout history."
+                "input": "Who is your favorite scientist",
+                "output": "I don't have a favorite scientist, but I admire the contributions and discoveries of many scientists throughout history"
               },
               {
-                "input": "What's the difference between hardware and software?",
-                "output": "Hardware refers to physical components of a computer system, such as the CPU and memory, while software includes programs and applications that run on hardware."
+                "input": "What's the difference between hardware and software",
+                "output": "Hardware refers to physical components of a computer system, such as the CPU and memory, while software includes programs and applications that run on hardware"
               },
               {
-                "input": "Can you explain the concept of quantum computing?",
-                "output": "Quantum computing leverages principles of quantum mechanics to perform complex computations at speeds exponentially faster than classical computers."
+                "input": "Can you explain the concept of quantum computing",
+                "output": "Quantum computing leverages principles of quantum mechanics to perform complex computations at speeds exponentially faster than classical computers"
               },
               {
-                "input": "How do I develop strong leadership skills?",
-                "output": "To develop strong leadership skills, practice effective communication, lead by example, delegate tasks, and inspire and motivate team members."
+                "input": "How do I develop strong leadership skills",
+                "output": "To develop strong leadership skills, practice effective communication, lead by example, delegate tasks, and inspire and motivate team members"
               },
               {
-                "input": "Tell me an interesting fact about plants.",
-                "output": "Did you know that the world's largest flower is the Rafflesia arnoldii, which can grow up to 3 feet in diameter and weigh over 15 pounds?"
+                "input": "Tell me an interesting fact about plants",
+                "output": "Did you know that the world's largest flower is the Rafflesia arnoldii, which can grow up to 3 feet in diameter and weigh over 15 pounds"
               },
               {
-                "input": "What's the best way to start investing?",
-                "output": "To start investing, educate yourself about investment options, set financial goals, diversify your portfolio, and consider seeking advice from financial experts."
+                "input": "What's the best way to start investing",
+                "output": "To start investing, educate yourself about investment options, set financial goals, diversify your portfolio, and consider seeking advice from financial experts"
               },
               {
-                "input": "Can you recommend a good website for learning new skills?",
-                "output": "Sure, here are some reputable websites that offer courses and resources for learning various skills..."
+                "input": "Can you recommend a good website for learning new skills",
+                "output": "Sure, here are some reputable websites that offer courses and resources for learning various skills"
               },
               {
-                "input": "What's the difference between an operating system and software?",
-                "output": "An operating system manages computer hardware and software resources, while software refers to programs and applications that run on a computer."
+                "input": "What's the difference between an operating system and software",
+                "output": "An operating system manages computer hardware and software resources, while software refers to programs and applications that run on a computer"
               },
               {
-                "input": "Tell me a joke.",
-                "output": "Why did the computer go to the doctor? Because it had a virus!"
+                "input": "Tell me a joke",
+                "output": "Why did the computer go to the doctor Because it had a virus"
               },
               {
-                "input": "What's the highest mountain in Africa?",
-                "output": "The highest mountain in Africa is Mount Kilimanjaro in Tanzania."
+                "input": "What's the highest mountain in Africa",
+                "output": "The highest mountain in Africa is Mount Kilimanjaro in Tanzania"
               },
               {
-                "input": "How do I stay focused on my goals?",
-                "output": "To stay focused on goals, create a vision board, break goals into actionable steps, track progress, and stay motivated with rewards."
+                "input": "How do I stay focused on my goals",
+                "output": "To stay focused on goals, create a vision board, break goals into actionable steps, track progress, and stay motivated with rewards"
               },
               {
-                "input": "Who is your favorite artist?",
-                "output": "I don't have a favorite artist, but I admire the creativity and talent of many artists across different forms of art."
+                "input": "Who is your favorite artist",
+                "output": "I don't have a favorite artist, but I admire the creativity and talent of many artists across different forms of art"
               },
               {
-                "input": "What's the difference between a virus and a bacterium?",
-                "output": "Viruses are smaller than bacteria and require a host cell to replicate, while bacteria are single-celled organisms that can reproduce independently."
+                "input": "What's the difference between a virus and a bacterium",
+                "output": "Viruses are smaller than bacteria and require a host cell to replicate, while bacteria are single-celled organisms that can reproduce independently"
               },
               {
-                "input": "Can you explain the concept of cloud computing?",
-                "output": "Cloud computing refers to the delivery of computing services over the internet, including storage, processing power, and software applications."
+                "input": "Can you explain the concept of cloud computing",
+                "output": "Cloud computing refers to the delivery of computing services over the internet, including storage, processing power, and software applications"
               },
               {
-                "input": "How do I develop a positive mindset?",
-                "output": "To develop a positive mindset, practice gratitude, focus on solutions rather than problems, surround yourself with positive influences, and practice self-compassion."
+                "input": "How do I develop a positive mindset",
+                "output": "To develop a positive mindset, practice gratitude, focus on solutions rather than problems, surround yourself with positive influences, and practice self-compassion"
               },
               {
-                "input": "Tell me an interesting fact about the human body.",
-                "output": "Did you know that the human body contains enough iron to make a small nail, enough carbon to make 900 pencils, and enough gold to make a small ring?"
+                "input": "Tell me an interesting fact about the human body",
+                "output": "Did you know that the human body contains enough iron to make a small nail, enough carbon to make 900 pencils, and enough gold to make a small ring"
               },
               {
-                "input": "What's the best way to start a fitness routine?",
-                "output": "To start a fitness routine, set realistic goals, choose activities you enjoy, vary your workouts, and stay consistent with exercise."
+                "input": "What's the best way to start a fitness routine",
+                "output": "To start a fitness routine, set realistic goals, choose activities you enjoy, vary your workouts, and stay consistent with exercise"
               },
               {
-                "input": "Can you recommend a good podcast on science?",
-                "output": "Sure, here are some popular science podcasts that cover a wide range of topics..."
+                "input": "Can you recommend a good podcast on science",
+                "output": "Sure, here are some popular science podcasts that cover a wide range of topics"
               },
               {
-                "input": "What's the difference between a democracy and a dictatorship?",
-                "output": "In a democracy, power is held by the people through elected representatives, while in a dictatorship, power is concentrated in the hands of one leader or a small group."
+                "input": "What's the difference between a democracy and a dictatorship",
+                "output": "In a democracy, power is held by the people through elected representatives, while in a dictatorship, power is concentrated in the hands of one leader or a small group"
               },
               {
-                "input": "Tell me a joke.",
-                "output": "Why did the scarecrow become a successful businessman? Because he was outstanding in his field!"
+                "input": "Tell me a joke",
+                "output": "Why did the scarecrow become a successful businessman Because he was outstanding in his field"
               },
               {
-                "input": "What's the largest island in the world?",
-                "output": "The largest island in the world is Greenland, followed by New Guinea and Borneo."
+                "input": "What's the largest island in the world",
+                "output": "The largest island in the world is Greenland, followed by New Guinea and Borneo"
               },
               {
-                "input": "How do I develop effective problem-solving skills?",
-                "output": "To develop effective problem-solving skills, analyze problems thoroughly, consider multiple solutions, test hypotheses, and learn from outcomes."
+                "input": "How do I develop effective problem-solving skills",
+                "output": "To develop effective problem-solving skills, analyze problems thoroughly, consider multiple solutions, test hypotheses, and learn from outcomes"
               },
               {
-                "input": "Who is your favorite musician?",
-                "output": "I don't have a favorite musician, but I appreciate various genres of music and the creativity of talented artists."
+                "input": "Who is your favorite musician",
+                "output": "I don't have a favorite musician, but I appreciate various genres of music and the creativity of talented artists"
               },
               {
-                "input": "What's the difference between an email and a letter?",
-                "output": "An email is an electronic message sent through the internet, while a letter is a physical document sent through mail or courier."
+                "input": "What's the difference between an email and a letter",
+                "output": "An email is an electronic message sent through the internet, while a letter is a physical document sent through mail or courier"
               },
               {
-                "input": "Can you explain the concept of quantum computing?",
-                "output": "Quantum computing leverages principles of quantum mechanics to perform complex computations at speeds exponentially faster than classical computers."
+                "input": "Can you explain the concept of quantum computing",
+                "output": "Quantum computing leverages principles of quantum mechanics to perform complex computations at speeds exponentially faster than classical computers"
               },
               {
-                "input": "How do I develop emotional intelligence?",
-                "output": "To develop emotional intelligence, practice self-awareness, empathy, effective communication, and conflict resolution skills."
+                "input": "How do I develop emotional intelligence",
+                "output": "To develop emotional intelligence, practice self-awareness, empathy, effective communication, and conflict resolution skills"
               },
               {
-                "input": "Tell me an interesting fact about dinosaurs.",
-                "output": "Did you know that the Tyrannosaurus rex had a bite force of about 8,000 pounds, making it one of the most powerful predators in history?"
+                "input": "Tell me an interesting fact about dinosaurs",
+                "output": "Did you know that the Tyrannosaurus rex had a bite force of about 8,000 pounds, making it one of the most powerful predators in history"
               },
               {
-                "input": "What's the best way to start a meditation practice?",
-                "output": "To start a meditation practice, find a quiet and comfortable space, focus on your breath or a mantra, practice regularly, and be patient with yourself."
+                "input": "What's the best way to start a meditation practice",
+                "output": "To start a meditation practice, find a quiet and comfortable space, focus on your breath or a mantra, practice regularly, and be patient with yourself"
               },
               {
-                "input": "Can you recommend a good website for learning coding?",
-                "output": "Sure, here are some popular websites and platforms for learning coding and programming languages..."
+                "input": "Can you recommend a good website for learning coding",
+                "output": "Sure, here are some popular websites and platforms for learning coding and programming languages"
               },
               {
-                "input": "What's the difference between a manager and a leader?",
-                "output": "A manager focuses on tasks and processes, while a leader inspires and motivates people, sets vision and goals, and fosters team collaboration."
+                "input": "What's the difference between a manager and a leader",
+                "output": "A manager focuses on tasks and processes, while a leader inspires and motivates people, sets vision and goals, and fosters team collaboration"
               },
               {
-                "input": "Tell me a joke.",
-                "output": "Why don't skeletons fight each other? They don't have the guts!"
+                "input": "Tell me a joke",
+                "output": "Why don't skeletons fight each other They don't have the guts"
               },
               {
-                "input": "What's the largest desert in the world?",
-                "output": "The largest desert in the world is the Antarctic Desert, followed by the Arctic Desert and the Sahara Desert."
+                "input": "What's the largest desert in the world",
+                "output": "The largest desert in the world is the Antarctic Desert, followed by the Arctic Desert and the Sahara Desert"
               },
               {
-                "input": "How do I build resilience?",
-                "output": "To build resilience, cultivate optimism, develop problem-solving skills, maintain strong social connections, and practice self-care."
+                "input": "How do I build resilience",
+                "output": "To build resilience, cultivate optimism, develop problem-solving skills, maintain strong social connections, and practice self-care"
               },
               {
-                "input": "Who is your favorite scientist?",
-                "output": "I don't have a favorite scientist, but I admire the contributions and discoveries of many scientists throughout history."
+                "input": "Who is your favorite scientist",
+                "output": "I don't have a favorite scientist, but I admire the contributions and discoveries of many scientists throughout history"
               },
               {
-                "input": "What's the difference between hardware and software?",
-                "output": "Hardware refers to physical components of a computer system, such as the CPU and memory, while software includes programs and applications that run on hardware."
+                "input": "What's the difference between hardware and software",
+                "output": "Hardware refers to physical components of a computer system, such as the CPU and memory, while software includes programs and applications that run on hardware"
               },
               {
-                "input": "Can you explain the concept of quantum computing?",
-                "output": "Quantum computing leverages principles of quantum mechanics to perform complex computations at speeds exponentially faster than classical computers."
+                "input": "Can you explain the concept of quantum computing",
+                "output": "Quantum computing leverages principles of quantum mechanics to perform complex computations at speeds exponentially faster than classical computers"
               },
               {
-                "input": "How do I develop strong leadership skills?",
-                "output": "To develop strong leadership skills, practice effective communication, lead by example, delegate tasks, and inspire and motivate team members."
+                "input": "How do I develop strong leadership skills",
+                "output": "To develop strong leadership skills, practice effective communication, lead by example, delegate tasks, and inspire and motivate team members"
               },
               {
-                "input": "Tell me an interesting fact about plants.",
-                "output": "Did you know that the world's largest flower is the Rafflesia arnoldii, which can grow up to 3 feet in diameter and weigh over 15 pounds?"
+                "input": "Tell me an interesting fact about plants",
+                "output": "Did you know that the world's largest flower is the Rafflesia arnoldii, which can grow up to 3 feet in diameter and weigh over 15 pounds"
               },
               {
-                "input": "What's the best way to start investing?",
-                "output": "To start investing, educate yourself about investment options, set financial goals, diversify your portfolio, and consider seeking advice from financial experts."
+                "input": "What's the best way to start investing",
+                "output": "To start investing, educate yourself about investment options, set financial goals, diversify your portfolio, and consider seeking advice from financial experts"
               },
               {
-                "input": "Can you recommend a good website for learning new skills?",
-                "output": "Sure, here are some reputable websites that offer courses and resources for learning various skills..."
+                "input": "Can you recommend a good website for learning new skills",
+                "output": "Sure, here are some reputable websites that offer courses and resources for learning various skills"
               },
               {
-                "input": "What's the difference between an operating system and software?",
-                "output": "An operating system manages computer hardware and software resources, while software refers to programs and applications that run on a computer."
+                "input": "What's the difference between an operating system and software",
+                "output": "An operating system manages computer hardware and software resources, while software refers to programs and applications that run on a computer"
               },
               {
-                "input": "Tell me a joke.",
-                "output": "Why did the computer go to the doctor? Because it had a virus!"
+                "input": "Tell me a joke",
+                "output": "Why did the computer go to the doctor Because it had a virus"
               },
               {
-                "input": "What's the highest mountain in Africa?",
-                "output": "The highest mountain in Africa is Mount Kilimanjaro in Tanzania."
+                "input": "What's the highest mountain in Africa",
+                "output": "The highest mountain in Africa is Mount Kilimanjaro in Tanzania"
               },
               {
-                "input": "How do I stay focused on my goals?",
-                "output": "To stay focused on goals, create a vision board, break goals into actionable steps, track progress, and stay motivated with rewards."
+                "input": "How do I stay focused on my goals",
+                "output": "To stay focused on goals, create a vision board, break goals into actionable steps, track progress, and stay motivated with rewards"
               },
               {
-                "input": "Who is your favorite artist?",
-                "output": "I don't have a favorite artist, but I admire the creativity and talent of many artists across different forms of art."
+                "input": "Who is your favorite artist",
+                "output": "I don't have a favorite artist, but I admire the creativity and talent of many artists across different forms of art"
               },
               {
-                "input": "What's the difference between a virus and a bacterium?",
-                "output": "Viruses are smaller than bacteria and require a host cell to replicate, while bacteria are single-celled organisms that can reproduce independently."
+                "input": "What's the difference between a virus and a bacterium",
+                "output": "Viruses are smaller than bacteria and require a host cell to replicate, while bacteria are single-celled organisms that can reproduce independently"
               },
               {
-                "input": "Can you explain the concept of cloud computing?",
-                "output": "Cloud computing refers to the delivery of computing services over the internet, including storage, processing power, and software applications."
+                "input": "Can you explain the concept of cloud computing",
+                "output": "Cloud computing refers to the delivery of computing services over the internet, including storage, processing power, and software applications"
               },
               {
-                "input": "How do I develop a positive mindset?",
-                "output": "To develop a positive mindset, practice gratitude, focus on solutions rather than problems, surround yourself with positive influences, and practice self-compassion."
+                "input": "How do I develop a positive mindset",
+                "output": "To develop a positive mindset, practice gratitude, focus on solutions rather than problems, surround yourself with positive influences, and practice self-compassion"
               },
               {
-                "input": "Tell me an interesting fact about the human body.",
-                "output": "Did you know that the human body contains enough iron to make a small nail, enough carbon to make 900 pencils, and enough gold to make a small ring?"
+                "input": "Tell me an interesting fact about the human body",
+                "output": "Did you know that the human body contains enough iron to make a small nail, enough carbon to make 900 pencils, and enough gold to make a small ring"
               },
               {
-                "input": "What's the best way to start a fitness routine?",
-                "output": "To start a fitness routine, set realistic goals, choose activities you enjoy, vary your workouts, and stay consistent with exercise."
+                "input": "What's the best way to start a fitness routine",
+                "output": "To start a fitness routine, set realistic goals, choose activities you enjoy, vary your workouts, and stay consistent with exercise"
               },
               {
-                "input": "Can you recommend a good podcast on science?",
-                "output": "Sure, here are some popular science podcasts that cover a wide range of topics..."
+                "input": "Can you recommend a good podcast on science",
+                "output": "Sure, here are some popular science podcasts that cover a wide range of topics"
               },
               {
-                "input": "What's the difference between a democracy and a dictatorship?",
-                "output": "In a democracy, power is held by the people through elected representatives, while in a dictatorship, power is concentrated in the hands of one leader or a small group."
+                "input": "What's the difference between a democracy and a dictatorship",
+                "output": "In a democracy, power is held by the people through elected representatives, while in a dictatorship, power is concentrated in the hands of one leader or a small group"
               },
               {
-                "input": "Tell me a joke.",
-                "output": "Why did the scarecrow become a successful businessman? Because he was outstanding in his field!"
+                "input": "Tell me a joke",
+                "output": "Why did the scarecrow become a successful businessman Because he was outstanding in his field"
               },
               {
-                "input": "What's the largest island in the world?",
-                "output": "The largest island in the world is Greenland, followed by New Guinea and Borneo."
+                "input": "What's the largest island in the world",
+                "output": "The largest island in the world is Greenland, followed by New Guinea and Borneo"
               },
               {
-                "input": "How do I develop effective problem-solving skills?",
-                "output": "To develop effective problem-solving skills, analyze problems thoroughly, consider multiple solutions, test hypotheses, and learn from outcomes."
+                "input": "How do I develop effective problem-solving skills",
+                "output": "To develop effective problem-solving skills, analyze problems thoroughly, consider multiple solutions, test hypotheses, and learn from outcomes"
               },
               {
-                "input": "Who is your favorite musician?",
-                "output": "I don't have a favorite musician, but I appreciate various genres of music and the creativity of talented artists."
+                "input": "Who is your favorite musician",
+                "output": "I don't have a favorite musician, but I appreciate various genres of music and the creativity of talented artists"
               },
               {
-                "input": "What's the difference between an email and a letter?",
-                "output": "An email is an electronic message sent through the internet, while a letter is a physical document sent through mail or courier."
+                "input": "What's the difference between an email and a letter",
+                "output": "An email is an electronic message sent through the internet, while a letter is a physical document sent through mail or courier"
               },
               {
-                "input": "Can you explain the concept of quantum computing?",
-                "output": "Quantum computing leverages principles of quantum mechanics to perform complex computations at speeds exponentially faster than classical computers."
+                "input": "Can you explain the concept of quantum computing",
+                "output": "Quantum computing leverages principles of quantum mechanics to perform complex computations at speeds exponentially faster than classical computers"
               },
               {
-                "input": "How do I develop emotional intelligence?",
-                "output": "To develop emotional intelligence, practice self-awareness, empathy, effective communication, and conflict resolution skills."
+                "input": "How do I develop emotional intelligence",
+                "output": "To develop emotional intelligence, practice self-awareness, empathy, effective communication, and conflict resolution skills"
               },
               {
-                "input": "Tell me an interesting fact about dinosaurs.",
-                "output": "Did you know that the Tyrannosaurus rex had a bite force of about 8,000 pounds, making it one of the most powerful predators in history?"
+                "input": "Tell me an interesting fact about dinosaurs",
+                "output": "Did you know that the Tyrannosaurus rex had a bite force of about 8,000 pounds, making it one of the most powerful predators in history"
               },
               {
-                "input": "What's the best way to start a meditation practice?",
-                "output": "To start a meditation practice, find a quiet and comfortable space, focus on your breath or a mantra, practice regularly, and be patient with yourself."
+                "input": "What's the best way to start a meditation practice",
+                "output": "To start a meditation practice, find a quiet and comfortable space, focus on your breath or a mantra, practice regularly, and be patient with yourself"
               },
               {
-                "input": "Can you recommend a good website for learning coding?",
-                "output": "Sure, here are some popular websites and platforms for learning coding and programming languages..."
+                "input": "Can you recommend a good website for learning coding",
+                "output": "Sure, here are some popular websites and platforms for learning coding and programming languages"
               },
               {
-                "input": "What's the difference between a manager and a leader?",
-                "output": "A manager focuses on tasks and processes, while a leader inspires and motivates people, sets vision and goals, and fosters team collaboration."
+                "input": "What's the difference between a manager and a leader",
+                "output": "A manager focuses on tasks and processes, while a leader inspires and motivates people, sets vision and goals, and fosters team collaboration"
               },
               {
-                "input": "Tell me a joke.",
-                "output": "Why don't skeletons fight each other? They don't have the guts!"
+                "input": "Tell me a joke",
+                "output": "Why don't skeletons fight each other They don't have the guts"
               },
               {
-                "input": "What's the largest desert in the world?",
-                "output": "The largest desert in the world is the Antarctic Desert, followed by the Arctic Desert and the Sahara Desert."
+                "input": "What's the largest desert in the world",
+                "output": "The largest desert in the world is the Antarctic Desert, followed by the Arctic Desert and the Sahara Desert"
               },
               {
-                "input": "How do I build resilience?",
-                "output": "To build resilience, cultivate optimism, develop problem-solving skills, maintain strong social connections, and practice self-care."
+                "input": "How do I build resilience",
+                "output": "To build resilience, cultivate optimism, develop problem-solving skills, maintain strong social connections, and practice self-care"
               },
               {
-                "input": "Who is your favorite scientist?",
-                "output": "I don't have a favorite scientist, but I admire the contributions and discoveries of many scientists throughout history."
+                "input": "Who is your favorite scientist",
+                "output": "I don't have a favorite scientist, but I admire the contributions and discoveries of many scientists throughout history"
               },
               {
-                "input": "What's the difference between hardware and software?",
-                "output": "Hardware refers to physical components of a computer system, such as the CPU and memory, while software includes programs and applications that run on hardware."
+                "input": "What's the difference between hardware and software",
+                "output": "Hardware refers to physical components of a computer system, such as the CPU and memory, while software includes programs and applications that run on hardware"
               }
 ]
 

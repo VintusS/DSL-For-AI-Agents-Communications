@@ -6,7 +6,6 @@ struct ChatView: View {
 
     var body: some View {
         VStack {
-            // Display messages in a scrollable view
             ScrollView {
                 VStack(alignment: .leading, spacing: 10) {
                     ForEach(viewModel.messages, id: \.id) { message in
@@ -47,42 +46,14 @@ struct ChatView: View {
             .padding(.horizontal)
         }
         .navigationBarTitle("Chat", displayMode: .inline)
+        .padding(10)
     }
 
     
     private func sendAndClear() {
         viewModel.sendText(messageText)
-        messageText = "" // Clear the text field after sending
+        messageText = ""
     }
-}
-
-// View for individual chat messages
-struct ChatMessageView: View {
-    let message: ChatMessage
-
-    var body: some View {
-        HStack {
-            if message.isFromUser {
-                Spacer()
-            }
-            Text(message.text)
-                .padding()
-                .background(message.isFromUser ? Color.blue : Color.gray)
-                .cornerRadius(10)
-                .foregroundColor(.white)
-            if !message.isFromUser {
-                Spacer()
-            }
-        }
-        .transition(.slide)
-        .animation(.easeInOut, value: message.text)
-    }
-}
-
-struct ChatMessage: Identifiable {
-    var id = UUID()
-    var text: String
-    var isFromUser: Bool
 }
 
 struct ChatView_Previews: PreviewProvider {
