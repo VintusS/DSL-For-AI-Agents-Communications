@@ -26,6 +26,7 @@ struct ChatView: View {
                         .foregroundColor(.blue)
                         .padding(.horizontal)
                 }
+                
 
                 
                 TextField("Type your message here...", text: $messageText)
