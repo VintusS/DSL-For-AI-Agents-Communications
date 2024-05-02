@@ -16,7 +16,9 @@ class ChatViewModel: ObservableObject {
     
     init() {
         speechManager.onRecognizedText = { [weak self] recognizedText in
-            self?.sendText(recognizedText)
+            DispatchQueue.main.async {
+                self?.sendText(recognizedText)
+            }
         }
     }
 
@@ -44,12 +46,20 @@ class ChatViewModel: ObservableObject {
     }
 
     func speechToText() {
-        speechManager.startListening()
-    }
-
-    func generateImage(from text: String) {
-        // Call to an image generation API should be implemented here
-        // Example:
-        // Send a request to an external API like OpenAI's DALL-E to generate an image based on the text.
+        speechManager.startListening { [weak self] (recognizedText, error) in
+            if let error = error {
+                print("Error during speech recognition: \(error)")
+                return
+            }
+            
+            guard let recognizedText = recognizedText, !recognizedText.isEmpty else {
+                print("No speech was detected or the recognized text is empty.")
+                return
+            }
+            
+            DispatchQueue.main.async {
+                self?.sendText(recognizedText)
+            }
+        }
     }
 }

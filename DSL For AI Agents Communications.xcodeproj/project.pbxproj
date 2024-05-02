@@ -31,6 +31,7 @@
 		710A035A2BE3906F0053B145 /* SpeechManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechManager.swift; sourceTree = "<group>"; };
 		710A035C2BE390790053B145 /* AIChatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIChatManager.swift; sourceTree = "<group>"; };
 		710A035E2BE3907F0053B145 /* ImageGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGenerator.swift; sourceTree = "<group>"; };
+		710A03612BE3B2D40053B145 /* TrainingPrompts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TrainingPrompts.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +72,7 @@
 				710A035A2BE3906F0053B145 /* SpeechManager.swift */,
 				710A035C2BE390790053B145 /* AIChatManager.swift */,
 				710A035E2BE3907F0053B145 /* ImageGenerator.swift */,
+				710A03602BE3B2C00053B145 /* Training */,
 				710A03482BE38C460053B145 /* Assets.xcassets */,
 				710A034A2BE38C460053B145 /* Preview Content */,
 			);
@@ -83,6 +85,14 @@
 				710A034B2BE38C460053B145 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		710A03602BE3B2C00053B145 /* Training */ = {
+			isa = PBXGroup;
+			children = (
+				710A03612BE3B2D40053B145 /* TrainingPrompts.json */,
+			);
+			path = Training;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
