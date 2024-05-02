@@ -12,6 +12,13 @@ import AVFoundation
 class ChatViewModel: ObservableObject {
     @Published var messages: [ChatMessage] = []
     let synthesizer = AVSpeechSynthesizer()
+    var speechManager = SpeechManager()
+    
+    init() {
+        speechManager.onRecognizedText = { [weak self] recognizedText in
+            self?.sendText(recognizedText)
+        }
+    }
 
     func sendText(_ text: String) {
         guard !text.isEmpty else { return }
@@ -37,9 +44,7 @@ class ChatViewModel: ObservableObject {
     }
 
     func speechToText() {
-        // This should trigger iOS's speech recognition to convert spoken words into text
-        // Example:
-        // Implement the speech recognition request and result handling here.
+        speechManager.startListening()
     }
 
     func generateImage(from text: String) {

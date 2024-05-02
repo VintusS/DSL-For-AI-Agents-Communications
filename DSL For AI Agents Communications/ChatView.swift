@@ -10,7 +10,7 @@ import SwiftUI
 struct ChatView: View {
     @ObservedObject var viewModel = ChatViewModel()
     @State private var messageText = ""
-    
+
     var body: some View {
         VStack {
             ScrollView {
@@ -22,9 +22,9 @@ struct ChatView: View {
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(Color(UIColor.systemBackground))
-            
+
             Divider()
-            
+
             HStack {
                 Button(action: {
                     viewModel.speechToText()
@@ -33,10 +33,10 @@ struct ChatView: View {
                         .foregroundColor(.blue)
                         .padding(.horizontal)
                 }
-                
+
                 TextField("Type your message here...", text: $messageText)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
-                
+
                 Button(action: {
                     viewModel.sendText(messageText)
                     messageText = ""
@@ -45,14 +45,6 @@ struct ChatView: View {
                         .resizable()
                         .frame(width: 32, height: 32)
                         .foregroundColor(.blue)
-                }
-                
-                Button(action: {
-                    viewModel.generateImage(from: messageText)
-                }) {
-                    Image(systemName: "photo")
-                        .foregroundColor(.blue)
-                        .padding(.horizontal)
                 }
             }
             .padding(.horizontal)
@@ -63,7 +55,7 @@ struct ChatView: View {
 
 struct ChatMessageView: View {
     let message: ChatMessage
-    
+
     var body: some View {
         HStack {
             if message.isFromUser {

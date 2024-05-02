@@ -11,7 +11,7 @@ import SwiftUI
 struct DSL_For_AI_Agents_CommunicationsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainMenuView()
         }
     }
 }

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		710A03452BE38C450053B145 /* DSL_For_AI_Agents_CommunicationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710A03442BE38C450053B145 /* DSL_For_AI_Agents_CommunicationsApp.swift */; };
-		710A03472BE38C450053B145 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710A03462BE38C450053B145 /* ContentView.swift */; };
 		710A03492BE38C460053B145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 710A03482BE38C460053B145 /* Assets.xcassets */; };
 		710A034C2BE38C460053B145 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 710A034B2BE38C460053B145 /* Preview Assets.xcassets */; };
 		710A03532BE38E870053B145 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710A03522BE38E870053B145 /* MainMenuView.swift */; };
@@ -23,7 +22,6 @@
 /* Begin PBXFileReference section */
 		710A03412BE38C450053B145 /* DSL For AI Agents Communications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DSL For AI Agents Communications.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		710A03442BE38C450053B145 /* DSL_For_AI_Agents_CommunicationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSL_For_AI_Agents_CommunicationsApp.swift; sourceTree = "<group>"; };
-		710A03462BE38C450053B145 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		710A03482BE38C460053B145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		710A034B2BE38C460053B145 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		710A03522BE38E870053B145 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
@@ -66,7 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				710A03442BE38C450053B145 /* DSL_For_AI_Agents_CommunicationsApp.swift */,
-				710A03462BE38C450053B145 /* ContentView.swift */,
 				710A03522BE38E870053B145 /* MainMenuView.swift */,
 				710A03542BE38ED70053B145 /* SettingsView.swift */,
 				710A03562BE38F130053B145 /* ChatView.swift */,
@@ -163,7 +160,6 @@
 				710A03552BE38ED70053B145 /* SettingsView.swift in Sources */,
 				710A03572BE38F130053B145 /* ChatView.swift in Sources */,
 				710A035D2BE390790053B145 /* AIChatManager.swift in Sources */,
-				710A03472BE38C450053B145 /* ContentView.swift in Sources */,
 				710A03592BE38FAB0053B145 /* ChatViewModel.swift in Sources */,
 				710A03452BE38C450053B145 /* DSL_For_AI_Agents_CommunicationsApp.swift in Sources */,
 				710A035B2BE3906F0053B145 /* SpeechManager.swift in Sources */,
