@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AVFoundation
 
 struct ChatMessageView: View {
     let message: ChatMessage
@@ -35,16 +36,29 @@ struct ChatMessageView: View {
                        .background(message.isFromUser ? Color.blue : Color.gray)
                        .cornerRadius(10)
                        .foregroundColor(.white)
+                   if !message.isFromUser {
+                       Button(action: {
+                           TextToSpeechManager.shared.speak(text)
+                       }) {
+                           Image(systemName: "speaker.wave.2.fill")
+                               .foregroundColor(Color.white)
+                               .padding(5)
+                       }
+                       .background(Color.blue)
+                       .clipShape(Circle())
+                       .padding(.leading, 5)
+                   }
                }
            }
             if !message.isFromUser && message.text != nil {
-                Spacer()  
+                Spacer()
             }
         }
         .transition(.slide)
         .animation(.easeInOut, value: message.text ?? message.imageUrl ?? "")
     }
 }
+
 
 
 struct TypingIndicator: View {

@@ -35,8 +35,14 @@ class ChatViewModel: ObservableObject {
         }
     }
     
+    func sanitizeInput(_ input: String) -> String {
+        let punctuationCharacters = CharacterSet(charactersIn: ".,!?;:'")
+        return input.components(separatedBy: punctuationCharacters).joined()
+    }
+
     func response(for input: String) -> String {
-        if let response = promptResponses.first(where: { $0.input.lowercased() == input.lowercased() }) {
+        let sanitizedInput = sanitizeInput(input.lowercased())
+        if let response = promptResponses.first(where: { sanitizeInput($0.input.lowercased()) == sanitizedInput }) {
             return response.output
         } else {
             return "Sorry, I do not understand."

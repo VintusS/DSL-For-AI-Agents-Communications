@@ -20,6 +20,7 @@
 		711F93982BE3DC340076A4DF /* jsonTrainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711F93972BE3DC340076A4DF /* jsonTrainer.swift */; };
 		711F93992BE3DC770076A4DF /* TrainingPrompts.json in Resources */ = {isa = PBXBuildFile; fileRef = 710A03612BE3B2D40053B145 /* TrainingPrompts.json */; };
 		711F939E2BE40E550076A4DF /* ChatMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711F939D2BE40E550076A4DF /* ChatMessageView.swift */; };
+		71F43D1B2BE44D63009C540C /* TextToSpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F43D1A2BE44D63009C540C /* TextToSpeechManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		710A03612BE3B2D40053B145 /* TrainingPrompts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TrainingPrompts.json; sourceTree = "<group>"; };
 		711F93972BE3DC340076A4DF /* jsonTrainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonTrainer.swift; sourceTree = "<group>"; };
 		711F939D2BE40E550076A4DF /* ChatMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageView.swift; sourceTree = "<group>"; };
+		71F43D1A2BE44D63009C540C /* TextToSpeechManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToSpeechManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				710A03582BE38FAB0053B145 /* ChatViewModel.swift */,
 				711F939D2BE40E550076A4DF /* ChatMessageView.swift */,
 				710A035A2BE3906F0053B145 /* SpeechManager.swift */,
+				71F43D1A2BE44D63009C540C /* TextToSpeechManager.swift */,
 				710A035C2BE390790053B145 /* AIChatManager.swift */,
 				710A035E2BE3907F0053B145 /* ImageGenerator.swift */,
 				711F93972BE3DC340076A4DF /* jsonTrainer.swift */,
@@ -181,6 +184,7 @@
 				710A03572BE38F130053B145 /* ChatView.swift in Sources */,
 				710A035D2BE390790053B145 /* AIChatManager.swift in Sources */,
 				710A03592BE38FAB0053B145 /* ChatViewModel.swift in Sources */,
+				71F43D1B2BE44D63009C540C /* TextToSpeechManager.swift in Sources */,
 				710A03452BE38C450053B145 /* DSL_For_AI_Agents_CommunicationsApp.swift in Sources */,
 				710A035B2BE3906F0053B145 /* SpeechManager.swift in Sources */,
 			);
