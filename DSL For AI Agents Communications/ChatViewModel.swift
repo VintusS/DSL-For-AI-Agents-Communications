@@ -30,7 +30,6 @@ class ChatViewModel: ObservableObject {
     }
 
     private func fetchResponse(for text: String) {
-        // Simulate AI response, you might replace this with an actual API call
         DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
             let response = ChatMessage(text: "Echo: \(text)", isFromUser: false)
             self.messages.append(response)

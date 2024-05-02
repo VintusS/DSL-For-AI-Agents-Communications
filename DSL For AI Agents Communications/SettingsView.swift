@@ -42,7 +42,6 @@ struct SettingsView: View {
     }
     
     private func saveSettings() {
-        // Here you could add logic to validate and save settings to a persistent store or cloud
         print("Settings saved.")
     }
 }

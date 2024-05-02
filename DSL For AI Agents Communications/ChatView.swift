@@ -75,7 +75,6 @@ struct ChatMessageView: View {
     }
 }
 
-// Dummy models and view model
 struct ChatMessage {
     var id = UUID()
     var text: String

@@ -20,8 +20,8 @@ class ImageGenerator {
 
         let body: [String: Any] = [
             "prompt": prompt,
-            "n": 1,  // Number of images to generate
-            "size": "256x256"  // Size of the generated image
+            "n": 1,
+            "size": "256x256" 
         ]
         request.httpBody = try? JSONSerialization.data(withJSONObject: body, options: [])
 

@@ -8,7 +8,6 @@
 import Foundation
 
 class AIChatManager {
-    // Placeholder for API keys or other necessary credentials
     private let apiKey = "your-api-key-here"
     private let apiURL = URL(string: "https://api.openai.com/v1/engines/davinci/completions")!
 
@@ -18,7 +17,6 @@ class AIChatManager {
         request.addValue("Bearer \(apiKey)", forHTTPHeaderField: "Authorization")
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
 
-        // Explicitly typed dictionary for request body
         let body: [String: Any] = [
             "prompt": message,
             "max_tokens": 150,
