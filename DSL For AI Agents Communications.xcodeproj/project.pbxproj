@@ -14,6 +14,10 @@
 		710A03532BE38E870053B145 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710A03522BE38E870053B145 /* MainMenuView.swift */; };
 		710A03552BE38ED70053B145 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710A03542BE38ED70053B145 /* SettingsView.swift */; };
 		710A03572BE38F130053B145 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710A03562BE38F130053B145 /* ChatView.swift */; };
+		710A03592BE38FAB0053B145 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710A03582BE38FAB0053B145 /* ChatViewModel.swift */; };
+		710A035B2BE3906F0053B145 /* SpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710A035A2BE3906F0053B145 /* SpeechManager.swift */; };
+		710A035D2BE390790053B145 /* AIChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710A035C2BE390790053B145 /* AIChatManager.swift */; };
+		710A035F2BE3907F0053B145 /* ImageGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710A035E2BE3907F0053B145 /* ImageGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,10 @@
 		710A03522BE38E870053B145 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
 		710A03542BE38ED70053B145 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		710A03562BE38F130053B145 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		710A03582BE38FAB0053B145 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		710A035A2BE3906F0053B145 /* SpeechManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechManager.swift; sourceTree = "<group>"; };
+		710A035C2BE390790053B145 /* AIChatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIChatManager.swift; sourceTree = "<group>"; };
+		710A035E2BE3907F0053B145 /* ImageGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,10 @@
 				710A03522BE38E870053B145 /* MainMenuView.swift */,
 				710A03542BE38ED70053B145 /* SettingsView.swift */,
 				710A03562BE38F130053B145 /* ChatView.swift */,
+				710A03582BE38FAB0053B145 /* ChatViewModel.swift */,
+				710A035A2BE3906F0053B145 /* SpeechManager.swift */,
+				710A035C2BE390790053B145 /* AIChatManager.swift */,
+				710A035E2BE3907F0053B145 /* ImageGenerator.swift */,
 				710A03482BE38C460053B145 /* Assets.xcassets */,
 				710A034A2BE38C460053B145 /* Preview Content */,
 			);
@@ -147,10 +159,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				710A03532BE38E870053B145 /* MainMenuView.swift in Sources */,
+				710A035F2BE3907F0053B145 /* ImageGenerator.swift in Sources */,
 				710A03552BE38ED70053B145 /* SettingsView.swift in Sources */,
 				710A03572BE38F130053B145 /* ChatView.swift in Sources */,
+				710A035D2BE390790053B145 /* AIChatManager.swift in Sources */,
 				710A03472BE38C450053B145 /* ContentView.swift in Sources */,
+				710A03592BE38FAB0053B145 /* ChatViewModel.swift in Sources */,
 				710A03452BE38C450053B145 /* DSL_For_AI_Agents_CommunicationsApp.swift in Sources */,
+				710A035B2BE3906F0053B145 /* SpeechManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

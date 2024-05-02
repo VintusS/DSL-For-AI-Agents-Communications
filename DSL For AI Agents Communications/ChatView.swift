@@ -90,28 +90,6 @@ struct ChatMessage {
     var isFromUser: Bool
 }
 
-class ChatViewModel: ObservableObject {
-    @Published var messages: [ChatMessage] = []
-    
-    func sendText(_ text: String) {
-        let newMessage = ChatMessage(text: text, isFromUser: true)
-        messages.append(newMessage)
-        // Simulate AI response
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-            let response = ChatMessage(text: "Echo: \(text)", isFromUser: false)
-            self.messages.append(response)
-        }
-    }
-    
-    func speechToText() {
-        // This function should trigger speech recognition and convert it to text
-    }
-    
-    func generateImage(from text: String) {
-        // This function should handle the generation of an image from a text prompt
-    }
-}
-
 struct ChatView_Previews: PreviewProvider {
     static var previews: some View {
         ChatView()
