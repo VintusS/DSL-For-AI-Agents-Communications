@@ -101,3 +101,4 @@ struct ChatMessage: Identifiable {
     var isFromUser: Bool
     var isTyping: Bool = false
 }
+
