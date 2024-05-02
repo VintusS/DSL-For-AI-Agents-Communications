@@ -27,41 +27,52 @@ class SpeechManager: NSObject, ObservableObject {
     func startListening() {
         SFSpeechRecognizer.requestAuthorization { authStatus in
             DispatchQueue.main.async {
-                if authStatus == .authorized {
-                    self.startRecording()
-                } else {
-                    print("Speech recognition authorization was denied")
+                switch authStatus {
+                case .authorized:
+                    print("Permission granted")
+                case .denied:
+                    print("Permission denied")
+                case .restricted:
+                    print("Speech recognition restricted on this device")
+                case .notDetermined:
+                    print("Speech recognition not yet authorized")
+                @unknown default:
+                    print("Unknown authorization status")
                 }
             }
         }
+
     }
 
     private func startRecording() {
-        if recognitionTask != nil {
-            recognitionTask?.cancel()
-            recognitionTask = nil
-        }
-
+        // Ensure the audio engine is stopped and the existing tap is removed before starting new recording session.
+        audioEngine.stop()
+        audioEngine.inputNode.removeTap(onBus: 0)
+        
         let audioSession = AVAudioSession.sharedInstance()
         do {
             try audioSession.setCategory(.record, mode: .measurement, options: .duckOthers)
+            try audioSession.setMode(.measurement)
             try audioSession.setActive(true, options: .notifyOthersOnDeactivation)
         } catch {
-            print("Failed to set up audio session for recording: \(error)")
+            print("Failed to set up the audio session with error: \(error.localizedDescription)")
             return
         }
 
+
         recognitionRequest = SFSpeechAudioBufferRecognitionRequest()
 
-        let inputNode = audioEngine.inputNode  // Direct access
-
+        let inputNode = audioEngine.inputNode
         recognitionRequest?.shouldReportPartialResults = true
 
-        recognitionTask = speechRecognizer?.recognitionTask(with: recognitionRequest!, resultHandler: { result, error in
-            if let result = result, result.isFinal {
-                DispatchQueue.main.async {
-                    self.onRecognizedText?(result.bestTranscription.formattedString)
-                    self.stopListening()
+        recognitionTask = speechRecognizer?.recognitionTask(with: recognitionRequest!, resultHandler: { [weak self] result, error in
+            guard let self = self else { return }
+            if let result = result {
+                if result.isFinal {
+                    DispatchQueue.main.async {
+                        self.onRecognizedText?(result.bestTranscription.formattedString)
+                        self.stopListening()
+                    }
                 }
             } else if let error = error {
                 print("There was a speech recognition error: \(error.localizedDescription)")
@@ -74,15 +85,13 @@ class SpeechManager: NSObject, ObservableObject {
             self.recognitionRequest?.append(buffer)
         }
 
-        audioEngine.prepare()
         do {
             try audioEngine.start()
         } catch {
             print("Audio engine failed to start: \(error)")
         }
-
-        isListening = true
     }
+
 
 
     func stopListening() {
