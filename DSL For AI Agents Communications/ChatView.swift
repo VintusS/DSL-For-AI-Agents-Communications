@@ -2,6 +2,7 @@ import SwiftUI
 
 struct ChatView: View {
     @ObservedObject var viewModel = ChatViewModel()
+    @ObservedObject private var speechManager = SpeechToTextManager()
     @State private var messageText = ""
 
     var body: some View {
@@ -19,15 +20,32 @@ struct ChatView: View {
             Divider()
 
             HStack {
-                Button(action: {
-                    viewModel.speechToText()
-                }) {
+                Button(action: {}) {
                     Image(systemName: "mic.fill")
                         .foregroundColor(.blue)
                         .padding(.horizontal)
                 }
-                
-
+                .simultaneousGesture(
+                    LongPressGesture(minimumDuration: 0.1)
+                        .onChanged({ _ in
+                            if !speechManager.isRecording {
+                                print("Starting recording...")
+                                try? speechManager.startRecording { text in
+                                    if let text = text {
+                                        self.messageText = text
+                                        print("Transcription updated: \(text)")
+                                    }
+                                }
+                            }
+                        })
+                        .onEnded({ _ in
+                            if speechManager.isRecording {
+                                speechManager.stopRecording()
+                                sendAndClear()
+                                print("Recording stopped.")
+                            }
+                        })
+                )
                 
                 TextField("Type your message here...", text: $messageText)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
