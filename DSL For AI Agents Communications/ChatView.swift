@@ -1,10 +1,3 @@
-//
-//  ChatView.swift
-//  DSL For AI Agents Communications
-//
-//  Created by Dragomir Mindrescu on 02.05.2024.
-//
-
 import SwiftUI
 
 struct ChatView: View {
@@ -13,6 +6,7 @@ struct ChatView: View {
 
     var body: some View {
         VStack {
+            // Display messages in a scrollable view
             ScrollView {
                 VStack(alignment: .leading, spacing: 10) {
                     ForEach(viewModel.messages, id: \.id) { message in
@@ -34,12 +28,15 @@ struct ChatView: View {
                         .padding(.horizontal)
                 }
 
+                
                 TextField("Type your message here...", text: $messageText)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
-
+                    .submitLabel(.send)
+                    .onSubmit {
+                        sendAndClear()
+                    }
                 Button(action: {
-                    viewModel.sendText(messageText)
-                    messageText = ""
+                    sendAndClear()
                 }) {
                     Image(systemName: "arrow.up.circle.fill")
                         .resizable()
@@ -51,8 +48,15 @@ struct ChatView: View {
         }
         .navigationBarTitle("Chat", displayMode: .inline)
     }
+
+    
+    private func sendAndClear() {
+        viewModel.sendText(messageText)
+        messageText = "" // Clear the text field after sending
+    }
 }
 
+// View for individual chat messages
 struct ChatMessageView: View {
     let message: ChatMessage
 
@@ -71,11 +75,11 @@ struct ChatMessageView: View {
             }
         }
         .transition(.slide)
-        .animation(.easeInOut)
+        .animation(.easeInOut, value: message.text)
     }
 }
 
-struct ChatMessage {
+struct ChatMessage: Identifiable {
     var id = UUID()
     var text: String
     var isFromUser: Bool
