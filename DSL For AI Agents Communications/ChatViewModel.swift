@@ -57,7 +57,7 @@ class ChatViewModel: ObservableObject {
                     if let index = self.messages.firstIndex(where: { $0.isTyping }) {
                         self.messages.remove(at: index)
                     }
-                    self.sendImageMessage(imageUrl: "https://cdn.pixabay.com/photo/2016/07/07/16/46/dice-1502706_640.jpg")
+                    self.sendImageMessage(imageUrl: "https://imgur.com/a/WJWxIPv")
                 }
             }
         } else {

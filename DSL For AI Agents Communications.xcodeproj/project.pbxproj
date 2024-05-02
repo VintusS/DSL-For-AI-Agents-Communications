@@ -17,7 +17,7 @@
 		710A035B2BE3906F0053B145 /* SpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710A035A2BE3906F0053B145 /* SpeechManager.swift */; };
 		710A035D2BE390790053B145 /* AIChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710A035C2BE390790053B145 /* AIChatManager.swift */; };
 		710A035F2BE3907F0053B145 /* ImageGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710A035E2BE3907F0053B145 /* ImageGenerator.swift */; };
-		711F93982BE3DC340076A4DF /* jsonReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711F93972BE3DC340076A4DF /* jsonReader.swift */; };
+		711F93982BE3DC340076A4DF /* jsonTrainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711F93972BE3DC340076A4DF /* jsonTrainer.swift */; };
 		711F93992BE3DC770076A4DF /* TrainingPrompts.json in Resources */ = {isa = PBXBuildFile; fileRef = 710A03612BE3B2D40053B145 /* TrainingPrompts.json */; };
 		711F939E2BE40E550076A4DF /* ChatMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711F939D2BE40E550076A4DF /* ChatMessageView.swift */; };
 /* End PBXBuildFile section */
@@ -35,7 +35,7 @@
 		710A035C2BE390790053B145 /* AIChatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIChatManager.swift; sourceTree = "<group>"; };
 		710A035E2BE3907F0053B145 /* ImageGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGenerator.swift; sourceTree = "<group>"; };
 		710A03612BE3B2D40053B145 /* TrainingPrompts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TrainingPrompts.json; sourceTree = "<group>"; };
-		711F93972BE3DC340076A4DF /* jsonReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonReader.swift; sourceTree = "<group>"; };
+		711F93972BE3DC340076A4DF /* jsonTrainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonTrainer.swift; sourceTree = "<group>"; };
 		711F939D2BE40E550076A4DF /* ChatMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,7 +78,7 @@
 				710A035A2BE3906F0053B145 /* SpeechManager.swift */,
 				710A035C2BE390790053B145 /* AIChatManager.swift */,
 				710A035E2BE3907F0053B145 /* ImageGenerator.swift */,
-				711F93972BE3DC340076A4DF /* jsonReader.swift */,
+				711F93972BE3DC340076A4DF /* jsonTrainer.swift */,
 				710A03602BE3B2C00053B145 /* Training */,
 				710A03482BE38C460053B145 /* Assets.xcassets */,
 				710A034A2BE38C460053B145 /* Preview Content */,
@@ -176,7 +176,7 @@
 				711F939E2BE40E550076A4DF /* ChatMessageView.swift in Sources */,
 				710A03532BE38E870053B145 /* MainMenuView.swift in Sources */,
 				710A035F2BE3907F0053B145 /* ImageGenerator.swift in Sources */,
-				711F93982BE3DC340076A4DF /* jsonReader.swift in Sources */,
+				711F93982BE3DC340076A4DF /* jsonTrainer.swift in Sources */,
 				710A03552BE38ED70053B145 /* SettingsView.swift in Sources */,
 				710A03572BE38F130053B145 /* ChatView.swift in Sources */,
 				710A035D2BE390790053B145 /* AIChatManager.swift in Sources */,
