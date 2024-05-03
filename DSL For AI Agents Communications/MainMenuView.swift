@@ -15,7 +15,7 @@ struct MainMenuView: View {
                     Section {
                         NavigationLink("Chat", destination: ChatView())
                         NavigationLink("Assistant", destination: AssistantView())
-                        NavigationLink("Image Wizard", destination: ChatView())
+                        NavigationLink("Image Wizard", destination: SelectionView())
                     } header: {
                         Text("Main menu")
                     }

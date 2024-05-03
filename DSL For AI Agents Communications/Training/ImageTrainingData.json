@@ -1,0 +1,62 @@
+    [
+      {
+        "input": "Search for a beautiful landscape.",
+        "output": "https://photographylife.com/wp-content/uploads/2017/03/How-to-find-beautiful-landscapes-4.jpg"
+      },
+      {
+        "input": "Find an image of a cute kitten.",
+        "output": "https://i.pinimg.com/564x/2d/4a/fd/2d4afd41d465c1d42a589c2fe6ba961b.jpg"
+      },
+      {
+        "input": "Look for a high-resolution picture of a city skyline.",
+        "output": "https://static.vecteezy.com/system/resources/thumbnails/033/855/009/small_2x/new-york-city-skyline-at-night-with-reflection-in-water-usa-panoramic-view-on-manhattan-at-night-new-york-usa-ai-generated-free-photo.jpg"
+      },
+      {
+        "input": "Search for a delicious-looking pizza.",
+        "output": "https://prettysimplesweet.com/wp-content/uploads/2015/12/classic_margherita_pizza-500x500.jpg"
+      },
+      {
+        "input": "Find an image of a tropical beach.",
+        "output": "https://images.fineartamerica.com/images-medium-large-5/tropical-beach-caribbean-john-harper.jpg"
+      },
+      {
+        "input": "Look for a vintage car.",
+        "output": "https://cdn.luxe.digital/media/20230206153512/best-classic-cars-vintage-Chevrolet-El-Camino-SS-luxe-digital-780x520.jpg"
+      },
+      {
+        "input": "Search for a stunning sunset.",
+        "output": "https://learn.corel.com/wp-content/uploads/2022/02/Blog-StunningSunsets-FB.jpg"
+      },
+      {
+        "input": "Find a picture of a snowy mountain.",
+        "output": "https://miro.medium.com/v2/resize:fit:1200/1*06ujBAXVeGHGifgqzuMn6Q.jpeg"
+      },
+      {
+        "input": "Look for an artistic painting.",
+        "output": "https://cdn.shopify.com/s/files/1/0256/9732/1053/files/Art_Styles.jpg"
+      },
+      {
+        "input": "Search for an image of a futuristic cityscape.",
+        "output": "https://t4.ftcdn.net/jpg/05/84/95/65/360_F_584956595_jJz4GqGQLZTIAiwir15VCk4sglgi9RGx.jpg"
+      },
+      {
+        "input": "Find a picture of a majestic waterfall.",
+        "output": "https://img.freepik.com/premium-photo/colorful-majestic-waterfall-national-park-forest-autumn_554837-610.jpg"
+      },
+      {
+        "input": "Look for an adorable puppy.",
+        "output": "https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg"
+      },
+      {
+        "input": "Search for a colorful flower garden.",
+        "output": "https://gardenerspath.com/wp-content/uploads/2022/01/Flower-Gardening-Guides-and-Information.jpg"
+      },
+      {
+        "input": "Find an image of a historic landmark.",
+        "output": "https://www.usnews.com/object/image/00000171-79d5-d48c-a973-7bd7f3160000/2-stonehenge-danaibe12.jpg"
+      },
+      {
+        "input": "Look for a cozy cabin in the woods.",
+        "output": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/products/2019/2/11/RX_Airbnb_CatskillA-frame.jpg.rend.hgtvcom.616.770.suffix/1549916037153.jpeg"
+      }
+    ]

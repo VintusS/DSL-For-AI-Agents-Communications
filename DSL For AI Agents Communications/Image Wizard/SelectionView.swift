@@ -32,6 +32,8 @@ struct SelectionView: View {
                             .padding()
                             .background(Color.blue)
                             .cornerRadius(10)
+                            .navigationBarBackButtonHidden(true)
+                            .navigationBarHidden(true)
                     }
                     .padding()
                     Spacer()

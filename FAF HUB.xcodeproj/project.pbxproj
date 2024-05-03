@@ -33,7 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		710A03412BE38C450053B145 /* DSL For AI Agents Communications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DSL For AI Agents Communications.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		710A03412BE38C450053B145 /* FAF HUB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FAF HUB.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		710A03442BE38C450053B145 /* DSL_For_AI_Agents_CommunicationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSL_For_AI_Agents_CommunicationsApp.swift; sourceTree = "<group>"; };
 		710A03482BE38C460053B145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		710A034B2BE38C460053B145 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -57,6 +57,7 @@
 		71F43D2F2BE46B69009C540C /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
 		71F43D312BE46B87009C540C /* TextToImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToImage.swift; sourceTree = "<group>"; };
 		71F43D332BE46B90009C540C /* ImageToText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageToText.swift; sourceTree = "<group>"; };
+		71F43D352BE46E90009C540C /* ImageTrainingData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ImageTrainingData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +82,7 @@
 		710A03422BE38C450053B145 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				710A03412BE38C450053B145 /* DSL For AI Agents Communications.app */,
+				710A03412BE38C450053B145 /* FAF HUB.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				710A03612BE3B2D40053B145 /* TrainingPrompts.json */,
+				71F43D352BE46E90009C540C /* ImageTrainingData.json */,
 				71F43D272BE46095009C540C /* jsonDecoder.swift */,
 			);
 			path = Training;
@@ -159,9 +161,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		710A03402BE38C450053B145 /* DSL For AI Agents Communications */ = {
+		710A03402BE38C450053B145 /* FAF HUB */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 710A034F2BE38C460053B145 /* Build configuration list for PBXNativeTarget "DSL For AI Agents Communications" */;
+			buildConfigurationList = 710A034F2BE38C460053B145 /* Build configuration list for PBXNativeTarget "FAF HUB" */;
 			buildPhases = (
 				710A033D2BE38C450053B145 /* Sources */,
 				710A033E2BE38C450053B145 /* Frameworks */,
@@ -171,9 +173,9 @@
 			);
 			dependencies = (
 			);
-			name = "DSL For AI Agents Communications";
+			name = "FAF HUB";
 			productName = "DSL For AI Agents Communications";
-			productReference = 710A03412BE38C450053B145 /* DSL For AI Agents Communications.app */;
+			productReference = 710A03412BE38C450053B145 /* FAF HUB.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -191,7 +193,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 710A033C2BE38C450053B145 /* Build configuration list for PBXProject "DSL For AI Agents Communications" */;
+			buildConfigurationList = 710A033C2BE38C450053B145 /* Build configuration list for PBXProject "FAF HUB" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -204,7 +206,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				710A03402BE38C450053B145 /* DSL For AI Agents Communications */,
+				710A03402BE38C450053B145 /* FAF HUB */,
 			);
 		};
 /* End PBXProject section */
@@ -384,6 +386,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone for speech-to-text functionality.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to gallery to be able to upload images you choose";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We need access to speech recognition to convert speech to text.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -415,6 +418,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone for speech-to-text functionality.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to gallery to be able to upload images you choose";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We need access to speech recognition to convert speech to text.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -437,7 +441,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		710A033C2BE38C450053B145 /* Build configuration list for PBXProject "DSL For AI Agents Communications" */ = {
+		710A033C2BE38C450053B145 /* Build configuration list for PBXProject "FAF HUB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				710A034D2BE38C460053B145 /* Debug */,
@@ -446,7 +450,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		710A034F2BE38C460053B145 /* Build configuration list for PBXNativeTarget "DSL For AI Agents Communications" */ = {
+		710A034F2BE38C460053B145 /* Build configuration list for PBXNativeTarget "FAF HUB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				710A03502BE38C460053B145 /* Debug */,
