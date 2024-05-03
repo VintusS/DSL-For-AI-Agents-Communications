@@ -10,7 +10,7 @@ import SwiftUI
 struct SettingsView: View {
     @AppStorage("apiKey") private var apiKey = ""
     @AppStorage("voiceEnabled") private var voiceEnabled = true
-    @AppStorage("voicePitch") private var voicePitch = 1.0  // Default pitch
+    @AppStorage("voicePitch") private var voicePitch = 1.0 
 
     var body: some View {
         NavigationView {
