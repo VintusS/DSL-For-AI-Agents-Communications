@@ -1,3 +1,10 @@
+//
+//  ChatView.swift
+//  DSL For AI Agents Communications
+//
+//  Created by Dragomir Mindrescu on 02.05.2024.
+//
+
 import SwiftUI
 
 struct ChatView: View {
@@ -20,33 +27,6 @@ struct ChatView: View {
             Divider()
 
             HStack {
-                Button(action: {}) {
-                    Image(systemName: "mic.fill")
-                        .foregroundColor(.blue)
-                        .padding(.horizontal)
-                }
-                .simultaneousGesture(
-                    LongPressGesture(minimumDuration: 0.1)
-                        .onChanged({ _ in
-                            if !speechManager.isRecording {
-                                print("Starting recording...")
-                                try? speechManager.startRecording { text in
-                                    if let text = text {
-                                        self.messageText = text
-                                        print("Transcription updated: \(text)")
-                                    }
-                                }
-                            }
-                        })
-                        .onEnded({ _ in
-                            if speechManager.isRecording {
-                                speechManager.stopRecording()
-                                sendAndClear()
-                                print("Recording stopped.")
-                            }
-                        })
-                )
-                
                 TextField("Type your message here...", text: $messageText)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .submitLabel(.send)

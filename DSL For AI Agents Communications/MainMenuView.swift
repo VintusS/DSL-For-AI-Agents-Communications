@@ -10,14 +10,29 @@ import SwiftUI
 struct MainMenuView: View {
     var body: some View {
         NavigationView {
-            List {
-                NavigationLink("Chat", destination: ChatView())
-                NavigationLink("Settings", destination: SettingsView())
+            VStack {
+                List {
+                    Section {
+                        NavigationLink("Chat", destination: ChatView())
+                        NavigationLink("Settings", destination: SettingsView())
+                        NavigationLink("Assistant", destination: AssistantView())
+                    } header: {
+                        Text("Main menu")
+                    }
+                }
+                Spacer()
+                Section {
+                    Text("©Team 3 DSL")
+                        .frame(maxWidth: .infinity, alignment: .center)
+                        .background(Color(.systemBackground))
+                }
             }
-            .navigationTitle("Main Menu")
+            .navigationTitle("FAF Chat")
         }
     }
 }
+
+
 
 struct MainMenuView_Previews: PreviewProvider {
     static var previews: some View {

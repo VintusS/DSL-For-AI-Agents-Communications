@@ -7,11 +7,6 @@
 
 import Foundation
 
-struct ChatPrompt: Codable {
-    var input: String
-    var output: String
-}
-
 struct PromptCollection: Codable {
     var prompts: [ChatPrompt]
 }
