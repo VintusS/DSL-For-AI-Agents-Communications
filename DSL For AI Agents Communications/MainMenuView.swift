@@ -14,10 +14,20 @@ struct MainMenuView: View {
                 List {
                     Section {
                         NavigationLink("Chat", destination: ChatView())
-                        NavigationLink("Settings", destination: SettingsView())
                         NavigationLink("Assistant", destination: AssistantView())
+                        NavigationLink("Image Wizard", destination: ChatView())
                     } header: {
                         Text("Main menu")
+                    }
+                    Section {
+                        NavigationLink("Credentials", destination: CreditsView())
+                    } header: {
+                        Text("Something additional")
+                    }
+                    Section {
+                        NavigationLink("Settings", destination: SettingsView())
+                    } header: {
+                        Text("YOLO")
                     }
                 }
                 Spacer()
@@ -27,7 +37,7 @@ struct MainMenuView: View {
                         .background(Color(.systemBackground))
                 }
             }
-            .navigationTitle("FAF Chat")
+            .navigationTitle("FAF HUB")
         }
     }
 }

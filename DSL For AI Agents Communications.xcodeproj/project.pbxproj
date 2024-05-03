@@ -26,6 +26,10 @@
 		71F43D242BE45F68009C540C /* TextToSpeech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F43D232BE45F68009C540C /* TextToSpeech.swift */; };
 		71F43D262BE45FBE009C540C /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F43D252BE45FBE009C540C /* SpeechRecognizer.swift */; };
 		71F43D282BE46095009C540C /* jsonDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F43D272BE46095009C540C /* jsonDecoder.swift */; };
+		71F43D2D2BE46729009C540C /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F43D2C2BE46729009C540C /* Credentials.swift */; };
+		71F43D302BE46B69009C540C /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F43D2F2BE46B69009C540C /* SelectionView.swift */; };
+		71F43D322BE46B87009C540C /* TextToImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F43D312BE46B87009C540C /* TextToImage.swift */; };
+		71F43D342BE46B90009C540C /* ImageToText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F43D332BE46B90009C540C /* ImageToText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +53,10 @@
 		71F43D232BE45F68009C540C /* TextToSpeech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToSpeech.swift; sourceTree = "<group>"; };
 		71F43D252BE45FBE009C540C /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
 		71F43D272BE46095009C540C /* jsonDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonDecoder.swift; sourceTree = "<group>"; };
+		71F43D2C2BE46729009C540C /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		71F43D2F2BE46B69009C540C /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+		71F43D312BE46B87009C540C /* TextToImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToImage.swift; sourceTree = "<group>"; };
+		71F43D332BE46B90009C540C /* ImageToText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageToText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +91,11 @@
 			children = (
 				710A03442BE38C450053B145 /* DSL_For_AI_Agents_CommunicationsApp.swift */,
 				710A03522BE38E870053B145 /* MainMenuView.swift */,
+				71F43D2E2BE46953009C540C /* Image Wizard */,
 				710A03542BE38ED70053B145 /* SettingsView.swift */,
 				71F43D222BE45F58009C540C /* FAF Assistant */,
-				710A03562BE38F130053B145 /* ChatView.swift */,
-				710A03582BE38FAB0053B145 /* ChatViewModel.swift */,
-				711F939D2BE40E550076A4DF /* ChatMessageView.swift */,
+				71F43D2B2BE4662D009C540C /* Chat */,
+				71F43D2C2BE46729009C540C /* Credentials.swift */,
 				710A035A2BE3906F0053B145 /* SpeechManager.swift */,
 				71F43D1A2BE44D63009C540C /* TextToSpeechManager.swift */,
 				71F43D1C2BE44E81009C540C /* SpeechToTextManager.swift */,
@@ -126,6 +134,26 @@
 				71F43D252BE45FBE009C540C /* SpeechRecognizer.swift */,
 			);
 			path = "FAF Assistant";
+			sourceTree = "<group>";
+		};
+		71F43D2B2BE4662D009C540C /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				710A03562BE38F130053B145 /* ChatView.swift */,
+				710A03582BE38FAB0053B145 /* ChatViewModel.swift */,
+				711F939D2BE40E550076A4DF /* ChatMessageView.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		71F43D2E2BE46953009C540C /* Image Wizard */ = {
+			isa = PBXGroup;
+			children = (
+				71F43D2F2BE46B69009C540C /* SelectionView.swift */,
+				71F43D312BE46B87009C540C /* TextToImage.swift */,
+				71F43D332BE46B90009C540C /* ImageToText.swift */,
+			);
+			path = "Image Wizard";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,13 +230,17 @@
 				711F939E2BE40E550076A4DF /* ChatMessageView.swift in Sources */,
 				710A03532BE38E870053B145 /* MainMenuView.swift in Sources */,
 				710A035F2BE3907F0053B145 /* ImageGenerator.swift in Sources */,
+				71F43D342BE46B90009C540C /* ImageToText.swift in Sources */,
 				71F43D1D2BE44E81009C540C /* SpeechToTextManager.swift in Sources */,
 				711F93982BE3DC340076A4DF /* jsonTrainer.swift in Sources */,
+				71F43D302BE46B69009C540C /* SelectionView.swift in Sources */,
+				71F43D322BE46B87009C540C /* TextToImage.swift in Sources */,
 				71F43D262BE45FBE009C540C /* SpeechRecognizer.swift in Sources */,
 				710A03552BE38ED70053B145 /* SettingsView.swift in Sources */,
 				710A03572BE38F130053B145 /* ChatView.swift in Sources */,
 				71F43D212BE45EE9009C540C /* FAFAssistant.swift in Sources */,
 				71F43D242BE45F68009C540C /* TextToSpeech.swift in Sources */,
+				71F43D2D2BE46729009C540C /* Credentials.swift in Sources */,
 				710A035D2BE390790053B145 /* AIChatManager.swift in Sources */,
 				710A03592BE38FAB0053B145 /* ChatViewModel.swift in Sources */,
 				71F43D282BE46095009C540C /* jsonDecoder.swift in Sources */,
