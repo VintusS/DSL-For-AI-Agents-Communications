@@ -12,11 +12,11 @@ class ImageToTextViewModel: ObservableObject {
     @Published var imageDescription: String?
 
     private var descriptions: [String] = [
-        "Description for first image",
-        "Description for second image",
-        "Description for third image",
-        "Description for fourth image",
-        "Description for fifth image"
+        "An evening cityscape glows under a sunset, with skyscrapers reflecting vibrant hues and streets bustling with cars and pedestrians, blending lively energy with tranquil twilight.",
+        "A group of people joyfully engage in a game on a grassy field, their expressions lively and movements energetic, embodying a sense of fun and camaraderie under a clear sky.",
+        "A fluffy white puppy sits playfully on a soft green lawn, its bright eyes sparkling with curiosity and its tiny tail wagging, surrounded by colorful flowers under a sunny sky.",
+        "A focused man sits at a tidy desk, intently working on a laptop. His expression is concentrated as he types, surrounded by notes and a cup of coffee, in a well-lit room.",
+        "A hearty slice of lasagna sits on a plate, featuring layers of golden, bubbly cheese atop rich meat sauce and tender pasta, garnished with fresh basil leaves, exuding a warm, inviting aroma."
     ]
 
     func updateDescription() {
@@ -67,6 +67,7 @@ struct ImageToText: View {
     @State private var isImagePickerPresented = false
     @Environment(\.presentationMode) var presentationMode
     @State private var isLoadingDescription = false
+    @State private var showDescription = false
 
     var body: some View {
         VStack {
@@ -84,14 +85,13 @@ struct ImageToText: View {
                         .transition(.opacity.animation(.easeInOut(duration: 0.5)))
                 }
                 
-                if let description = viewModel.imageDescription {
+                if showDescription, let description = viewModel.imageDescription {
                     Text(description)
                         .padding()
                         .opacity(isLoadingDescription ? 0 : 1)
                         .animation(.easeInOut(duration: 1), value: isLoadingDescription)
                 }
             } else {
-                
                 VStack {
                     Spacer()
                     
@@ -115,13 +115,23 @@ struct ImageToText: View {
         }
         .sheet(isPresented: $isImagePickerPresented) {
             ImagePicker(selectedImage: $viewModel.selectedImage) {
+                isLoadingDescription = true
+                showDescription = false
                 viewModel.updateDescription()
+                
+                // Delay display of the description
+                DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+                    isLoadingDescription = false
+                    showDescription = true
+                }
             }
         }
         .navigationBarBackButtonHidden(true)
     }
 }
 
-#Preview {
-    ImageToText()
+struct ImageToText_Previews: PreviewProvider {
+    static var previews: some View {
+        ImageToText()
+    }
 }
