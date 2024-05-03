@@ -72,17 +72,19 @@ struct AssistantView: View {
         }
 
     private func processText(_ text: String) {
-        let response = data.first(where: { data in
-            let charsToRemove: CharacterSet = CharacterSet(charactersIn: ".,")
-            let filteredInput = data.input.components(separatedBy: charsToRemove).joined()
+        let response = data.first(where: { prompt in
+            let charsToRemove: CharacterSet = CharacterSet(charactersIn: ".,!?;:'")
+            let filteredInput = text.components(separatedBy: charsToRemove).joined().lowercased()
+            let filteredPrompt = prompt.input.components(separatedBy: charsToRemove).joined().lowercased()
             
-            return text.localizedCaseInsensitiveContains(filteredInput)
+            return filteredPrompt.contains(filteredInput)
         })?.output ?? (text.isEmpty ? "I don't quite understand." : "Can you repeat please?")
 
         DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
             self.textToSpeechConverter.speak(text: response)
         }
     }
+
 
 
 }

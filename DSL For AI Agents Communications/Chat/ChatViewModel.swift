@@ -42,7 +42,7 @@ class ChatViewModel: ObservableObject {
 
     func response(for input: String) -> String {
         let sanitizedInput = sanitizeInput(input.lowercased())
-        if let response = promptResponses.first(where: { sanitizeInput($0.input.lowercased()) == sanitizedInput }) {
+        if let response = promptResponses.first(where: { sanitizeInput($0.input.lowercased()).contains(sanitizedInput) }) {
             return response.output
         } else {
             return "Sorry, I do not understand."
