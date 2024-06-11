@@ -8,20 +8,27 @@
 import SwiftUI
 
 class ImageToTextViewModel: ObservableObject {
-    @Published var selectedImage: UIImage?
-    @Published var imageDescription: String?
+    @Published var selectedImage: UIImage? {
+        didSet {
+            print("ViewModel: selectedImage set")
+        }
+    }
+    @Published var imageDescription: String? {
+        didSet {
+            print("ViewModel: imageDescription set to \(imageDescription ?? "nil")")
+        }
+    }
 
-    private var descriptions: [String] = [
-        "An evening cityscape glows under a sunset, with skyscrapers reflecting vibrant hues and streets bustling with cars and pedestrians, blending lively energy with tranquil twilight.",
-        "A group of people joyfully engage in a game on a grassy field, their expressions lively and movements energetic, embodying a sense of fun and camaraderie under a clear sky.",
-        "A fluffy white puppy sits playfully on a soft green lawn, its bright eyes sparkling with curiosity and its tiny tail wagging, surrounded by colorful flowers under a sunny sky.",
-        "A focused man sits at a tidy desk, intently working on a laptop. His expression is concentrated as he types, surrounded by notes and a cup of coffee, in a well-lit room.",
-        "A hearty slice of lasagna sits on a plate, featuring layers of golden, bubbly cheese atop rich meat sauce and tender pasta, garnished with fresh basil leaves, exuding a warm, inviting aroma."
-    ]
+    private var descriptions: [String] = ["Description for image 1", "Description for image 2", "Description for image 3"]
 
     func updateDescription() {
+        print("ViewModel: updateDescription called")
         if !descriptions.isEmpty {
             imageDescription = descriptions.removeFirst()
+            print("ViewModel: imageDescription updated to \(imageDescription ?? "nil")")
+        } else {
+            imageDescription = "No more descriptions available."
+            print("ViewModel: No more descriptions available")
         }
     }
 }
@@ -31,6 +38,7 @@ struct ImagePicker: UIViewControllerRepresentable {
     var onImagePicked: () -> Void
 
     func makeUIViewController(context: Context) -> UIImagePickerController {
+        print("ImagePicker: makeUIViewController called")
         let picker = UIImagePickerController()
         picker.delegate = context.coordinator
         picker.sourceType = .photoLibrary
@@ -54,6 +62,7 @@ struct ImagePicker: UIViewControllerRepresentable {
 
         func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
             if let image = info[.originalImage] as? UIImage {
+                print("ImagePicker: image picked")
                 parent.selectedImage = image
                 onImagePicked()
             }
@@ -95,7 +104,7 @@ struct ImageToText: View {
                 VStack {
                     Spacer()
                     
-                    Text("Choose an image and I'll try to describe it")
+                    Text("Upload an image and I'll describe it")
                         .font(.largeTitle)
                         .padding()
                         .fontWeight(.bold)
@@ -111,22 +120,30 @@ struct ImageToText: View {
             }
         }
         .onTapGesture {
+            print("ImageToText: Image picker presented")
             isImagePickerPresented = true
         }
         .sheet(isPresented: $isImagePickerPresented) {
             ImagePicker(selectedImage: $viewModel.selectedImage) {
+                print("ImageToText: Image picked, updating description")
                 isLoadingDescription = true
                 showDescription = false
                 viewModel.updateDescription()
                 
-                // Delay display of the description
                 DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+                    print("ImageToText: Description loaded")
                     isLoadingDescription = false
                     showDescription = true
                 }
             }
         }
         .navigationBarBackButtonHidden(true)
+        .onAppear {
+            print("ImageToText: View appeared")
+        }
+        .onDisappear {
+            print("ImageToText: View disappeared")
+        }
     }
 }
 

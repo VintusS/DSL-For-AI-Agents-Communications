@@ -50,8 +50,19 @@ struct ChatView: View {
 
     
     private func sendAndClear() {
+        print("Input: " + messageText)
         viewModel.sendText(messageText)
         messageText = ""
+        print("Processing")
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            print("Processing.")
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+                print("Processing..")
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+                    print("Processing...")
+                }
+            }
+        }
     }
 }
 

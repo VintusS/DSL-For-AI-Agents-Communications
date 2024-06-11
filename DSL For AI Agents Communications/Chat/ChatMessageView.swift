@@ -17,39 +17,52 @@ struct ChatMessageView: View {
                 Spacer()
             }
             Group {
-               if let imageUrl = message.imageUrl, let url = URL(string: imageUrl) {
-                   AsyncImage(url: url) { phase in
-                       if let image = phase.image {
-                           image.resizable()
-                                .aspectRatio(contentMode: .fit)
-                       } else if phase.error != nil {
-                           Text("An error occurred while loading the image.")
-                       } else {
-                           ProgressView()
-                       }
-                   }
-                   .frame(width: 200, height: 200)
-                   .cornerRadius(10)
-               } else if let text = message.text {
-                   Text(text)
-                       .padding(EdgeInsets(top: 10, leading: 15, bottom: 10, trailing: 15))
-                       .background(message.isFromUser ? Color.blue : Color.gray)
-                       .cornerRadius(10)
-                       .foregroundColor(.white)
-                   if !message.isFromUser {
-                       Button(action: {
-                           TextToSpeechManager.shared.speak(text)
-                       }) {
-                           Image(systemName: "speaker.wave.2.fill")
-                               .foregroundColor(Color.white)
-                               .padding(5)
-                       }
-                       .background(Color.blue)
-                       .clipShape(Circle())
-                       .padding(.leading, 5)
-                   }
-               }
-           }
+                if let imageUrl = message.imageUrl, let url = URL(string: imageUrl) {
+                    AsyncImage(url: url) { phase in
+                        switch phase {
+                        case .empty:
+                            ProgressView()
+                        case .success(let image):
+                            image.resizable()
+                                 .aspectRatio(contentMode: .fit)
+                        case .failure:
+                            Text("An error occurred while loading the image.")
+                        @unknown default:
+                            EmptyView()
+                        }
+                    }
+                    .frame(width: 200, height: 200)
+                    .cornerRadius(10)
+                    .onAppear {
+                        print("Output: Loading image from URL: \(imageUrl)")
+                    }
+                } else if let text = message.text {
+                    Text(text)
+                        .padding(EdgeInsets(top: 10, leading: 15, bottom: 10, trailing: 15))
+                        .background(message.isFromUser ? Color.blue : Color.gray)
+                        .cornerRadius(10)
+                        .foregroundColor(.white)
+                        .onAppear {
+                            print("Output: Displaying text message.")
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 6) {
+                                print("Output: \(text)")
+                            }
+                        }
+                    if !message.isFromUser {
+                        Button(action: {
+                            print("Output: Text-to-Speech button tapped for text: \(text)")
+                            TextToSpeechManager.shared.speak(text)
+                        }) {
+                            Image(systemName: "speaker.wave.2.fill")
+                                .foregroundColor(Color.white)
+                                .padding(5)
+                        }
+                        .background(Color.blue)
+                        .clipShape(Circle())
+                        .padding(.leading, 5)
+                    }
+                }
+            }
             if !message.isFromUser && message.text != nil {
                 Spacer()
             }
@@ -58,8 +71,6 @@ struct ChatMessageView: View {
         .animation(.easeInOut, value: message.text ?? message.imageUrl ?? "")
     }
 }
-
-
 
 struct TypingIndicator: View {
     @State private var animate = false
@@ -81,9 +92,11 @@ struct TypingIndicator: View {
             }
         }
         .onAppear {
+            print("TypingIndicator: Animation started.")
             animate = true
         }
         .onDisappear {
+            print("TypingIndicator: Animation stopped.")
             animate = false
         }
     }
