@@ -19,7 +19,7 @@ class ImageToTextViewModel: ObservableObject {
         }
     }
 
-    private var descriptions: [String] = ["Description for image 1", "Description for image 2", "Description for image 3"]
+    private var descriptions: [String] = ["A majestic waterfall cascades down a lush, green cliffside surrounded by verdant vegetation under a cloudy sky.", "A vibrant field of magenta, purple, and yellow flowers blooming densely with green foliage in the background.", "A single yellow flower blooms amidst green and red foliage on a sandy dune, with a blurry beach and sky in the background."]
 
     func updateDescription() {
         print("ViewModel: updateDescription called")

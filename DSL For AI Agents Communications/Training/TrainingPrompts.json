@@ -24,9 +24,9 @@
     "output": "Goodbye, have a great day"
   },
   {
-      "input": "What's the capital of France",
-      "output": "The capital of France is Paris"
-    },
+    "input": "What is the capital of France",
+    "output": "The capital of France is Paris"
+  },
     {
       "input": "How do I reset my password",
       "output": "To reset your password, please follow these steps"

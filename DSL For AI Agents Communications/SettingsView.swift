@@ -16,7 +16,7 @@ struct SettingsView: View {
         NavigationView {
             Form {
                 Section(header: Text("API Settings")) {
-                    TextField("API Key", text: $apiKey)
+                    TextField("Enter the short encrypted API key", text: $apiKey)
                         .autocapitalization(.none)
                         .disableAutocorrection(true)
                 }
